@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: "NewYorkExtraLarge";
-  src: url("./font/NewYorkExtraLarge-Semibold.woff2") format("woff2");
+  src: url("./font/NewYorkLarge-Black.woff2") format("woff2");
 }
 @font-face {
   font-family: "NewYorkSmall";
@@ -63,12 +63,13 @@
 }
 
 .main-header-news {
-  height: 35vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-top: 2px solid grey;
+  border-top: 2px solid rgb(214, 214, 214);
   width: 100%;
+  padding-top: 5%;
+  padding-bottom: 3%;
 }
 .main-header-news img {
   width: 100%;
@@ -89,6 +90,7 @@
 }
 .main-header-text h2 {
   padding-bottom: 10%;
+  font-family: "Abel", sans-serif;
 }
 
 .header-separator {
@@ -110,9 +112,6 @@
     box-shadow: none;
     background-color: white;
   }
-  .dropdown-content a {
-    padding: 19px;
-  }
   .dropdown-content a:hover {
     border-bottom: 2px solid black;
   }
@@ -120,10 +119,18 @@
     display: none;
   }
   .main-header-news {
-    height: 80vh;
+    height: 65vh;
   }
   .main-header-news img {
     width: 40rem;
     height: auto;
+  }
+  .main-header-text {
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+  .main-header-text h2 {
+    font-family: "NewYorkExtraLarge";
+    padding-bottom: 20px;
   }
 }/*# sourceMappingURL=style-start-page.css.map */

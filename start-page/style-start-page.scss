@@ -11,7 +11,7 @@
 
 @font-face {
     font-family: 'NewYorkExtraLarge';
-    src: url('./font/NewYorkExtraLarge-Semibold.woff2') format('woff2');
+    src: url('./font/NewYorkLarge-Black.woff2') format('woff2');
 }
 
 @font-face {
@@ -70,10 +70,11 @@
 }
 
 .main-header-news {
-    height: 35vh;
     @include flexCenter;
-    border-top: 2px solid grey;
-    width: 100%; 
+    border-top: 2px solid rgb(214, 214, 214);
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 3%; 
     img {
     width: 100%;
     height: auto;
@@ -91,6 +92,7 @@
     height: 25vh;
     h2 {
         padding-bottom: 10%;
+        font-family: "Abel", sans-serif;
     }
 }
 
@@ -112,7 +114,6 @@
         background-color: white;
         
         a {
-            padding: 19px;
             &:hover {
                 border-bottom: 2px solid black;
             }
@@ -123,10 +124,18 @@
     }
 
     .main-header-news {
-        height: 80vh;
+        height: 65vh;
         img {
             width: 40rem; 
             height: auto;
+        }
+    }
+    .main-header-text {
+        padding-left: 30%;
+        padding-right: 30%;
+        h2 {
+            font-family: 'NewYorkExtraLarge';
+            padding-bottom: 20px;
         }
     }
 }

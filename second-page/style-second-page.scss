@@ -1,86 +1,417 @@
-* {
+*{
     margin: 0px;
     padding: 0px;
 }
-.title{
-    width: 217px;
-    height: 20px;
-    color: black;
-    font-size: 30px;
-}
-.box{
-    background-image:url();
-}
-.block-one{
-    margin-top: 100px;
-}
-.block-two{
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-.Ghost{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size:24px;
+
+@font-face {
+    font-family: 'NewYorkExtraLarge';
+    src: url('../start-page/font/NewYorkExtraLarge-Semibold.woff2') format('woff2');
 }
 
-.choice{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 15px;   
+@font-face {
+    font-family: 'NewYorkSmall';
+    src: url('../start-page/font/NewYorkSmall-Black.woff2') format('woff2');
 }
-.photo{
-height: 270px;
-width: 270px;
-display: flex;
-justify-content: center;
+@font-face {
+    font-family: 'New Medium';
+    src: url('../start-page/font/NewYorkLarge-Medium.woff2') format('woff2');
+}
+@import url('https://fonts.cdnfonts.com/css/sf-mono');
+$button-color: rgb(255, 255, 255);
+$button-hover-color: #e7e7e7;
+$button-text-color: #fff;
+$button-widht:98px;
+$button-height:40px;
 
+body{
+    line-height: 1.6;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    .header-title{
+        font-size: 25px;
+        box-shadow: 0px 1px 0px 0px #00000029;
+        width: 100%;
+    }
+    img{
+        width: 20px;
+        height: 15px;
+        margin-right: 8px;
+        margin-top:11px ;
+    }
+}
+
+.image-section{
+    img{
+        width: 100%;
+        max-width:400px;
+        margin: 20px 0px;
+    }
 }
 .line{
-display: flex;
-justify-content: center;
-margin-top: 24px;
-height:2px;
-width: 300px;
+img{
+    width: 100%;
+    max-width: 250px;
+    display: flex;
+    margin-left: 24px;
 }
-.block-three{
-    background-image: url(img/image\ 3.png);
-    border-radius:50%;
-    height: 100px;
-    width: 100px;
-    margin-top: 20px;
-    background-repeat: no-repeat;
-    .mika, p{
-    margin-left: 60px;
-    display: inline-block;
-    align-items: center;
+}
+.intro{
+    font-size: 20px;
     text-align: center;
-    width: 200px;
-    height: 30px;
-   } 
+    display: flex;
+    justify-content: center;
+    font-family: 'NewYorkExtraLarge';
+    font-weight: 800;
+    line-height:30px;
+    margin-top: 30px;
+  
+}
+.grost{
+    font-size: 13px;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'SF Mono', sans-serif;
+    font-weight: 400;
+}
+.author-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:15px;
+    .author-details{
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        .mika{
+            font-size: 14px;
+            font-family: 'SF Mono', sans-serif;
+            font-weight: 400;
+        }
+        .art{
+            font-size: 10px;
+            font-family: 'SF Mono', sans-serif;
+         font-weight: 400;
+        }
+        img{
+            border-radius: 50%;
+            width: 40px;
+            margin-right: 20px;
+            margin-left: 10px;
+        }
+    }
+}
+
+.social-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:3px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    
+    .btn {
+        background-color: $button-color;
+        color: $button-text-color;
+        border:none;
+        padding:4px 20px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        width: $button-widht;
+        height: $button-height;
+        border-radius: 5px;
+
+        &:hover {
+            background-color: $button-hover-color;
+        }
+    }
+}
+
+.text-section{
+    margin-top: 9px;
+    margin-left: 12px;
+    font-size: 13px;
+    font-family: 'New Medium';
+        font-weight: 335;
+
+
+
+    h2{
+        margin-top: 20px;
+        font-size: 23px;
+        margin-left: 12px;
+    }
 
 }
- .img{
-     height: 10px;
-     width: 300px;
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
-   }
-   .txt{
-    margin-top:50px;
-    font-size:13px;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-   }
-   .txt-one{
-    font-size: 22px;
-    margin-top: 40px ;
-   }
-   .txt-two{
-    font-size: 13px;
-    margin-top: 10px;
+.image-caption-section{
+    margin-top: 20px;
+    img{
+        width: 100%;
+       
+    }
+    p{
+        font-size: 8px;
+        margin-right: 8px;
+        padding-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-family: 'SF Mono', sans-serif;
+        font-weight: 400;
+
+
+    }
 }
+.text-share{
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: 13px;
+
+}
+.tags{
+    font-size: 13px;
+    margin-left: 13px;
+}
+.line6{
+    img{
+        width: 100%;
+        max-width: 250px;
+        display: flex;
+        margin-left: 24px;
+        margin-top:25px;
+    }
+}
+.footer{
+    margin-top: 40px;
+    font-size: 13px;
+    border-top: 1px;
+    img{
+        border-radius: 50%;
+       position: absolute;
+    }
+
+}
+.profile-info{
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    margin-bottom: 30px;
+    img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-left: 10px;
+    }
+    p{
+        margin-top: 20px;
+        font-size: 10px;
+        line-height: 1.6;
+        margin-left: 10px;
+        font-family: 'SF Mono', sans-serif;
+        font-weight: 400;
+    }
+    
+}
+@media screen and (min-width:1024px)
+{
+    body{
+        line-height: 1.6;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        .header-title{
+            font-size: 30px;
+        }
+    }
+    .image-section{
+        img{
+            width: 100%;
+            max-width:140%;
+            margin: 20px 0px;
+        }
+    }
+    .line{
+    img{
+        width: 100%;
+        max-width: 500px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 30%;
+    }
+    }
+    .intro{
+        font-size:36px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-family: 'NewYorkExtraLarge';
+        font-weight: 700;
+        line-height:38px;
+      
+    }
+    .grost{
+        font-size: 16px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-family: 'SF Mono', sans-serif;
+        font-weight: 400;
+        margin-top: 20px;
+    }
+    .author-info{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top:15px;
+        .author-details{
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            .mika{
+                font-size: 14px;
+                font-family: 'SF Mono', sans-serif;
+                font-weight: 400;
+            }
+            .art{
+                font-size: 10px;
+                font-family: 'SF Mono', sans-serif;
+             font-weight: 400;
+            }
+            img{
+                border-radius: 50%;
+                width: 40px;
+                margin-right: 20px;
+                margin-left: 310px;
+            }
+        }
+    }
+    .social-icons{
+        display: flex;
+        width: 400px;
+        justify-content: space-between;
+        align-items: center;
+        padding:2px;
+        background-color: #f7f7f7;
+        margin-left: 350px;
+        border-radius: 5px;
+        
+        .btn {
+            background-color: $button-color;
+            color: $button-text-color;
+            border: none;
+            padding:4px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            width:129px;
+            height:50px;
+            border-radius: 5px;
+    
+            &:hover {
+                background-color: $button-hover-color;
+            }
+        }
+    }
+
+    .text-section{
+        margin-top: 9px;
+        margin-left: 30%;
+        font-size: 18px;
+        width: 50%;
+        font-family: 'New Medium';
+        font-weight: 335;
+        h2{
+            margin: 46px 0px 14px 0px;
+            font-size: 23px;
+            margin-left: 0px;
+        }
+    
+    }
+    .image-caption-section{
+        margin-top: 20px;
+        img{
+            width: 100%;
+            max-width: 60%;
+            margin-left: 25%;
+        }
+        p{
+            font-size: 12px;
+            width:500px;
+            margin-left: 290px;
+            padding-bottom: 30px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            font-family: 'SF Mono', sans-serif;
+            font-weight: 400;
+    
+        }
+    }
+    .text-share{
+        margin-top:15px;
+        font-size: 12px;
+        margin-left: 35%;
+        font-family: 'SF Mono', sans-serif;
+        font-weight: 400;
+    }
+    .tags{
+        font-size: 12px;
+        margin-left: 35%;
+        font-family: 'SF Mono', sans-serif;
+        font-weight: 400;
+
+    }
+    .line6{
+        img{
+            width: 100%;
+            max-width:50%;
+            display: flex;
+            margin-left: 25%;
+            margin-bottom:30px;
+        }
+    }
+    .footer{
+        margin-top: 40px;
+        font-size: 13px;
+        border-top: 1px;
+        img{
+            border-radius: 50%;
+           position: absolute;
+        }
+    
+    }
+    .profile-info{
+        display: flex;
+        align-items: center;
+        max-width: 60%;
+        margin-bottom: 30px;
+        margin-left: 25%;
+        img{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-left: 1px;
+        }
+        p{
+            margin-top: 20px;
+            font-size: 11px;
+            line-height: 1.6;
+            margin-left: 15px;
+            margin-top: 9px;
+            font-family: 'SF Mono', sans-serif;
+            font-weight: 400;
+            width:400px;
+        }
+        
+    }
+}
+
+

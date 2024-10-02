@@ -3,6 +3,26 @@
   padding: 0px;
 }
 
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0px; /* remove scrollbar space */
+  background: transparent; /* optional: just make scrollbar invisible */
+}
+
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #ff0000;
+}
+
 @font-face {
   font-family: "NewYorkExtraLarge";
   src: url("./font/NewYorkLarge-Black.woff2") format("woff2");
@@ -13,7 +33,6 @@
 }
 .main-header {
   width: 100%;
-  height: 70vh;
 }
 
 .nav-panel {
@@ -135,7 +154,7 @@
     padding-bottom: 20px;
   }
 }
-.main-header {
+body {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -148,7 +167,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   flex-grow: 1;
 }
@@ -167,7 +186,7 @@
   align-items: center;
   justify-content: center;
   margin: 10px;
-  width: 50%;
+  width: calc(100% - 10px);
 }
 @media (max-width: 768px) {
   .block-img-blog .image-container {
@@ -219,6 +238,7 @@
 .block-img-blog .image-container .image-block-txt {
   font-size: 12px;
   text-align: center;
+  padding: 10px;
   width: 100%;
 }
 
@@ -248,7 +268,6 @@
   justify-content: center;
   color: #ffffff;
   box-sizing: border-box;
-  height: 400px;
 }
 .footer-block-nr footer {
   width: 100%;
@@ -265,6 +284,7 @@
   color: #ffffff;
   font-size: 18px;
   text-align: center;
+  padding: 10px;
   width: 100%;
   position: relative;
   text-transform: uppercase;
@@ -274,7 +294,7 @@
 .footer-block-nr .header-txt-anim p {
   position: absolute;
   left: 100%;
-  top: 5px;
+  top: 23px;
   white-space: nowrap;
   color: #ffffff;
   animation: text-scroll 15s linear infinite;
@@ -300,6 +320,7 @@
   color: #ffffff;
   font-size: 16px;
   text-align: center;
+  padding: 10px;
 }
 .footer-block-nr .info-nr .info-nr1-txt {
   font-size: 40px;
@@ -332,7 +353,7 @@
   text-align: center;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
   .header-txt-anim p {
     animation: text-scroll 15s linear infinite;
     position: absolute;

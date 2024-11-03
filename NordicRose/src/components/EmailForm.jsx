@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function EmailForm() {
     return (
         <div className="font-sans w-[90%] max-w-[500px] mx-auto my-10">

@@ -2,7 +2,7 @@ import './style.css';
 import { Link } from 'react-router-dom';
 function Header() {
     return (
-      <div className='wrapper'>
+      <div className='wrapper-header'>
     <link href="https://fonts.cdnfonts.com/css/sf-mono" rel="stylesheet" />
         <div className="main-header-news">
         <Link to="/blog">

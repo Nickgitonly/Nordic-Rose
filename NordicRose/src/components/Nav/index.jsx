@@ -1,7 +1,7 @@
 import './style.css';
 function Nav() {
   return (
-    <div className="wrapper">
+    <div className="wrapper-nav">
         <nav className="nav-panel">
           <div className="title-nav">
             <a href="#">

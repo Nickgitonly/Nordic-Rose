@@ -4,28 +4,26 @@
     width: 80%;
     font-family: "New Medium";
     font-weight: 100;
-  }
-  .text-section h2 {
-    margin: 2.5vw 0 1.5vw;
-  }
-<<<<<<< HEAD
-  .image-caption-section img {
-=======
-  
-.image-caption-section img {
->>>>>>> cf1bb97faa60998c75cc925e395b31cee1a04cdf
-    width: 100%;
-    margin-top: 5vw;
-  }
-  .image-caption-section p {
-    text-align: center;
-    font-size: 2.7vw;
-    width: 100%;
-    margin-bottom: 5vw;
-    font-family: "SF Mono", sans-serif;
-    font-weight: 400;
-  }
-<<<<<<< HEAD
+    
+    h2 {
+        margin: 2.5vw 0 1.5vw;
+       }
+    }
+    .image-caption-section {
+        img {
+            width: 100%;
+            margin-top: 5vw;
+        }
+        
+        p {
+            text-align: center;
+            font-size:2.7vw;
+            width: 100%;
+            margin-bottom: 5vw;
+            font-family: 'SF Mono', sans-serif;
+            font-weight: 400;
+        }
+        }
     @media  (min-width: 1024px){
         .text-section {
             font-size: 1.4vw;
@@ -36,23 +34,5 @@
         .image-caption-section p {
             font-size: 1.3vw;
             text-align: center;
-          }
+        }
     }
-=======
-@media  (min-width: 1024px){}
-.text-section {
-    font-size: 1.4vw;
-    width: 50%;
-    margin-left: 25%;
-  }
-  .image-caption-section img {
-    width: 80%;
-    margin-left: 10%;
-    display: flex;
-    justify-content: center;
-  }
-  .image-caption-section p {
-    font-size: 1.3vw;
-    text-align: center;
-  }
->>>>>>> cf1bb97faa60998c75cc925e395b31cee1a04cdf

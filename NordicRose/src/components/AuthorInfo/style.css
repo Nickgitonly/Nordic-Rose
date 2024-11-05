@@ -3,43 +3,72 @@
   justify-content: center;
   width: 80%;
 }
+
 .author-info .author-details {
   display: flex;
   align-items: center;
   margin: 2vw 0;
   justify-content: space-between;
 }
+
 .author-info .author-details .mika {
   font-family: "SF Mono", sans-serif;
   font-weight: 600;
   margin-left: 3vw;
 }
+
 .author-info .author-details .art {
   font-family: "SF Mono", sans-serif;
   font-weight: 400;
   margin-left: 3vw;
 }
+
 .author-info .author-details img {
   border-radius: 50%;
   margin-left: 10px;
 }
 
-@media  (min-width: 1024px) {
+/* Комп'ютерна версія */
+@media (min-width: 1024px) {
   .author-info {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-left: 5px;
-      padding-top: 1vw;
-      margin-bottom: 10px;
-    }
-    .author-info img {
-      width: 5vw;
-      height: auto;
-      border-radius: 50%;
-    }
-    .author-info .mika, .author-info .art {
-      font-size: 1.2vw;
-      text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    padding-top: 1vw;
+    margin-bottom: 10px;
   }
-} 
+  .author-info img {
+    width: 5vw;
+    height: auto;
+    border-radius: 50%;
+  }
+  .author-info .mika,
+  .author-info .art {
+    font-size: 1.2vw;
+    text-align: left;
+  }
+}
+
+/* Мобільна версія */
+@media (max-width: 768px) {
+  .author-info {
+    width: 100%;
+    padding-top: 5px;
+  }
+  .author-info .author-details {
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 0;
+  }
+  .author-info .author-details .mika,
+  .author-info .author-details .art {
+    font-size: 4vw;
+    margin-left: 0;
+    text-align: center;
+  }
+  .author-info .author-details img {
+    width: 15vw;
+    margin-left: 0;
+  }
+}

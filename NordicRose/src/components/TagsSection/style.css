@@ -6,6 +6,22 @@
   padding-bottom: 4vw;
 }
 
+.underline {
+  position: relative; /* Позволяет использовать псевдоэлементы */
+  text-decoration: none; /* Убираем стандартное подчеркивание */
+}
+
+.underline:after {
+  content: ""; /* Псевдоэлемент для создания полоски */
+  display: block; /* Делаем его блочным элементом */
+  width: 100%; /* Полоска занимает всю ширину текста */
+  height: 2px; /* Высота полоски */
+  background-color: #000; /* Цвет полоски, можно изменить */
+  position: absolute; /* Позиционирование полоски */
+  left: 0; /* Выравнивание по левому краю */
+  bottom: 0; /* Позиция полоски под текстом */
+}
+
 .line6 img {
   max-width: 100%;
   display: flex;
@@ -13,7 +29,8 @@
   margin-left: 30%;
   margin-bottom: 3vw;
 }
-@media  (min-width: 1024px){
+
+@media (min-width: 1024px) {
   .text-share, .tags {
     font-size: 1.4vw;
     margin-left: 25%;

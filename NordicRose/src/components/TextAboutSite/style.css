@@ -1,17 +1,19 @@
 .text-section {
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    font-family: "New Medium";
-    font-weight: 100;
+  margin: 0 auto; /* Центрируем блок с помощью автоматических отступов по всем сторонам */
+  width: 80%; /* Ширина блока */
+  font-family: "New Medium";
+  font-weight: 100;
+}
+
+.text-section h2 {
+  margin: 2.5vw 0 1.5vw; /* Отступы для заголовка */
+}
+
+@media (min-width: 1024px) {
+  .text-section {
+      font-size: 1.4vw; /* Размер шрифта для десктопа */
+      width: 50%; /* Ширина блока на десктопе */
+      margin-left: auto; /* Убираем отступы слева и справа */
+      margin-right: auto;
   }
-  .text-section h2 {
-    margin: 2.5vw 0 1.5vw;
-  }
-@media  (min-width: 1024px){
-    .text-section {
-        font-size: 1.4vw;
-        width: 50%;
-        margin-left: 25%;
-      }
-    }
+}

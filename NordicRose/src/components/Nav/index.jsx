@@ -8,6 +8,7 @@ function Nav() {
               <img src="/images/NORDICROSE.png" alt="NORDIC" />
             </a>
           </div>
+          <div>
           <div className="dropdown">
             <input type="checkbox" id="dropdown-toggle" />
             <label htmlFor="dropdown-toggle" className="dropbtn">
@@ -23,6 +24,7 @@ function Nav() {
               <a href="#">LINKS</a>
               <a href="#">PROJECTS</a>
             </div>
+          </div>
           </div>
         </nav>
     </div>

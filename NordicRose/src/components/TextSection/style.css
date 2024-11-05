@@ -1,16 +1,14 @@
 .text-section {
-  margin-left: auto;
-  margin-right: auto;
-  width: 96%;
   font-family: "New Medium";
   font-weight: 100;
-  font-size: 3vw;
- 
-
+  font-size: 4vw;
+  width: 80%;
+   
 }
 .text-section h2 { 
   margin: 2.5vw 0 1.5vw;
   font-weight: 700;
+  font-size: 5vw;
 }
 .image-caption-section img {
   width: 100%; 

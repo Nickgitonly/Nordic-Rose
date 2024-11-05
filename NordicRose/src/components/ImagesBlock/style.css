@@ -7,15 +7,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 9vw 0;
+   
     width: 100%;
   }
 
   .line img {
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: center;
-    margin-left: 5%;
+    margin-left: 4%;
+    margin-top: 3.4vw;
   }
 
 @media  (min-width: 1024px) {

@@ -1,31 +1,27 @@
 .text-header{
-
+    margin : 5vw auto 2vw auto;
     width: 70%;
     font-family: 'New Medium';
     font-weight: 100;
     list-style-type: none;
 }
 .text-section {
-
-    width: 80%;
-    font-family: 'New Medium';
-    font-weight: 100;
-    h2 {
-        margin: 2.5vw 0 1.5vw;
-       }
-}
-
+    font-size: 1.4vw;
+    width: 50%;
+    margin-left: 60%;
+    list-style-type: disc;
+  }
 
 @media  (min-width: 1024px) {
-    .text-header{
-        font-size: 1.4vw;
-        margin-left: 25%;
-        list-style-type: none;
-      }
-    .text-section {
-        font-size: 1.4vw;
-        width: 50%;
-        margin-left: 25%;
-        list-style-type: disc;
+  .text-header{
+      font-size: 1.4vw;
+      margin-left: 25%;
+      list-style-type: none;
     }
+  .text-section {
+      font-size: 1.4vw;
+      width: 50%;
+      margin-left: 25%;
+      list-style-type: disc;
+  }
 }

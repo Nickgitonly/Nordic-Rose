@@ -1,40 +1,40 @@
 .text-section {
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    font-family: "New Medium";
-    font-weight: 100;
-  }
-  .text-section h2 { 
-    margin: 2.5vw 0 1.5vw;
-    font-weight: 700;
-  }
-  .image-caption-section img {
-    width: 100%; 
-    margin-top: 5vw;
-  }
-  .image-caption-section p {
-    text-align: center;
-    font-size: 2.7vw;
-    width: 100%;
-    margin-bottom: 5vw;
-    font-family: "SF Pro", sans-serif;
-    font-weight: 400;
-  }
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  font-family: "New Medium";
+  font-weight: 100;
+}
+.text-section h2 { 
+  margin: 2.5vw 0 1.5vw;
+  font-weight: 700;
+}
+.image-caption-section img {
+  width: 100%; 
+  margin-top: 5vw;
+}
+.image-caption-section p {
+  text-align: center;
+  font-size: 2.7vw;
+  width: 100%;
+  margin-bottom: 5vw;
+  font-family: "SF Pro", sans-serif;
+  font-weight: 400;
+}
 @media  (min-width: 1024px){
-    .text-section {
-        font-size: 1.4vw;
-        width: 50%;
-        margin-left: 25%;
-      }
-      .image-caption-section img {
-        width: 80%;
-        margin-left: 10%;
-        display: flex;
-        justify-content: center;
-      }
-      .image-caption-section p {
-        font-size: 1.3vw;
-        text-align: center;
-      }
+  .text-section {
+      font-size: 1.4vw;
+      width: 50%;
+      margin-left: 25%;
+    }
+    .image-caption-section img {
+      width: 80%;
+      margin-left: 10%;
+      display: flex;
+      justify-content: center;
+    }
+    .image-caption-section p {
+      font-size: 1.3vw;
+      text-align: center;
+    }
 }

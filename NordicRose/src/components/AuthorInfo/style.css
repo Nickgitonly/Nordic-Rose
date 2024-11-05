@@ -1,7 +1,7 @@
 .author-info {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 80%;
   }
   .author-info .author-details {
     display: flex;
@@ -12,25 +12,26 @@
   .author-info .author-details .mika {
     font-family: "SF Mono", sans-serif;
     font-weight: 600;
-    margin-left: 5vw;
+    margin-left: 3vw;
   }
   .author-info .author-details .art {
     font-family: "SF Mono", sans-serif;
     font-weight: 400;
-    margin-left: 5vw;
+    margin-left: 3vw;
   }
   .author-info .author-details img {
     border-radius: 50%;
+    margin-left: 10px;
   }
 
 @media  (min-width: 1024px) {
     .author-info {
+        display: flex;
         align-items: center;
+        justify-content: center;
+        margin-left: 5px;
         padding-top: 1vw;
         margin-bottom: 10px;
-        display: flex;
-        justify-content: center;
-        width: 100%;
       }
       .author-info img {
         width: 5vw;
@@ -38,8 +39,7 @@
         border-radius: 50%;
       }
       .author-info .mika, .author-info .art {
-        font-size: 1.1vw;
+        font-size: 1.2vw;
         text-align: left;
-        
     }
 }

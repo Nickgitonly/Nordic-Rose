@@ -8,13 +8,13 @@
   src: url("../start-page/font/NewYorkExtraLarge-Semibold.woff2") format("woff2");
 }
 .intro {
-    font-size: 4vw;
+    font-size: 5vw;
     text-align: center;
     display: flex;
     justify-content: center;
     font-family: "NewYorkExtraLarge";
     font-weight: 700;
-    line-height: 10vw;
+    line-height: 5vw;
     width: 60%;
     margin-left: 20%;
     padding-top: 3vw;
@@ -28,7 +28,7 @@
     justify-content: center;
     font-family: "SF Mono", sans-serif;
     font-weight: 300;
-    margin-top: 3vw;
+    margin-top: 5vw;
     margin-left: 21%;
     width: 60%;
   }

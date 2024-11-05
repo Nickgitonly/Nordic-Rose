@@ -1,3 +1,8 @@
+.image-section {
+  display: flex; 
+  justify-content: center; 
+}
+
 .image-section img {
     display: flex;
     justify-content: center;

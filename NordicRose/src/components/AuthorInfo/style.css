@@ -32,9 +32,11 @@
     margin-left: 10px;
   }
 
-@media  (min-width: 1024px) {
+/* Комп'ютерна версія */
+@media (min-width: 1024px) {
   .author-info {
     display: flex;
+
     justify-content: center;
     align-items: center;
     margin-left:5px;
@@ -57,3 +59,4 @@
         
       }
 }
+

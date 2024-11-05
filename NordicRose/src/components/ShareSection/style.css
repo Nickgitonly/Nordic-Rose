@@ -9,7 +9,7 @@
 /* Комп'ютерна версія */
 @media (min-width: 1024px) {
   .text-share, .tags {
-    font-size: 1.4vw;
+    font-size: 1.2vw;
     margin-left: 25%;
     margin-top: 2vw;
   }

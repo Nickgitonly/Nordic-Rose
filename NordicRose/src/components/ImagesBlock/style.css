@@ -1,7 +1,7 @@
 .image-section img {
     display: flex;
     justify-content: center;
-    align-items: center;
+    
     margin: 9vw 0;
     width: 100%;
   }

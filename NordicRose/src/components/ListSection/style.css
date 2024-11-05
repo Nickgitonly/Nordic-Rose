@@ -1,13 +1,11 @@
 .text-header{
     margin : 5vw auto 2vw auto;
-    width: 80%;
+    width: 50%;
     font-family: 'New Medium';
     font-weight: 100;
     list-style-type: none;
 }
 .text-section {
-    margin-left: auto;
-    margin-right: auto;
     width: 80%;
     font-family: 'New Medium';
     font-weight: 100;

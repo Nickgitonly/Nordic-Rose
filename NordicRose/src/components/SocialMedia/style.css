@@ -11,7 +11,7 @@
   background-color: rgb(255, 255, 255);
   color: #fff;
   border: none;
-  padding: 1vw 4vw; /* Паддинг для кнопок в десктопной версии */
+  padding: 1vw 4vw; 
   transition: background-color 0.3s ease;
   width: 90vw;
   height: 10vw;
@@ -55,8 +55,8 @@
     margin-left: 15%;
   }
   .social-icons .btn {
-    width: 70vw; /* Уменьшаем ширину кнопок для мобильной версии */
-    height: 8vw; /* Уменьшаем высоту кнопок для мобильной версии */
-    padding: 1.5vw 2vw; /* Уменьшаем отступы кнопок */
+    width: 70vw; 
+    height: 8vw; 
+    padding: 1.5vw 2vw; 
   }
 }

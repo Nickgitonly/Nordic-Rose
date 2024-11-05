@@ -1,4 +1,3 @@
-
 .social-icons {
     display: flex;
     justify-content: center;
@@ -9,8 +8,8 @@
 
     
     .btn {
-        background-color: #000000;
-        color: #fff;
+        background-color: #fff;
+        color: #000000;
         border: none;
         padding: 1vw 4vw;
         transition: background-color 0.3s ease;
@@ -44,10 +43,11 @@
             border-radius: 5px;
             
         
-            &:hover {
-              background-color: #e7e7e7;
+            
           }
-          }
+          &:hover {
+            background-color: #e7e7e7;
+        }
       }
      
 }

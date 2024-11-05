@@ -7,26 +7,26 @@
 }
 
 .underline {
-  position: relative; /* Позволяет использовать псевдоэлементы */
-  text-decoration: none; /* Убираем стандартное подчеркивание */
+  position: relative; 
+  text-decoration: none; 
 }
 
 .underline:after {
-  content: ""; /* Псевдоэлемент для создания полоски */
-  display: block; /* Делаем его блочным элементом */
-  width: 100%; /* Полоска занимает всю ширину текста */
-  height: 2px; /* Высота полоски */
-  background-color: #000; /* Цвет полоски, можно изменить */
-  position: absolute; /* Позиционирование полоски */
-  left: 0; /* Выравнивание по левому краю */
-  bottom: 0; /* Позиция полоски под текстом */
+  content: ""; 
+  display: block; 
+  width: 100%; 
+  height: 2px; 
+  background-color: #000; 
+  position: absolute; 
+  left: 0; 
+  bottom: 0; 
 }
 
 .line6 img {
-  max-width: 100%;
+  max-width: 90%;
   display: flex;
   justify-content: center;
-  margin-left: 30%;
+  margin-left: 0%;
   margin-bottom: 3vw;
 }
 

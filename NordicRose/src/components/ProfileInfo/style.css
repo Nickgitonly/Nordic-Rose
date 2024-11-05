@@ -1,45 +1,44 @@
-.profile-info { 
+.profile-info {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap; /* Позволяет элементам оборачиваться */
   justify-content: center;
-  align-items: flex-start; 
-  max-width: 60%;
-  margin-bottom: 10vw; 
+  align-items: flex-start; /* Выравнивание по верхнему краю */
+  max-width: 100%;
+  margin-bottom: 10vw; /* Можем оставить, или изменить для мобильной версии */
 }
 
 .profile-info img {
   border-radius: 50%;
-  width: 80px; 
-  height: auto; 
-  margin-right: 10px; 
-  float: left; 
+  width: 80px; /* Задаем фиксированную ширину для изображения */
+  height: auto; /* Обеспечиваем автоматическое изменение высоты для сохранения пропорций */
+  margin: 0 10px; /* Добавляем отступы слева и справа */
+  align-self: flex-start; /* Устанавливаем изображение в верхней части контейнера */
 }
 
 .profile-info p {
-  margin: 0; 
-  font-size: 4vw; 
+  margin: 0 10px; /* Убираем верхний отступ и добавляем отступы по бокам */
+  font-size: 4vw; /* Увеличиваем размер шрифта для мобильной версии */
   font-family: "SF Mono", sans-serif;
   font-weight: 400;
-  text-align: left; 
-  flex: 1; 
-  min-width: 150px; 
+  text-align: left; /* Выравниваем текст по левому краю */
+  flex: 1; /* Позволяем тексту занимать оставшееся пространство */
+  min-width: 150px; /* Задаем минимальную ширину для текста */
 }
 
 @media (min-width: 1024px) {
   .profile-info {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start; /* Устанавливаем выравнивание по верхнему краю */
     margin-bottom: 30px;
-    margin-left: 15%;
+    margin-left: 10%;
   }
   .profile-info img {
     width: 7vw;
-    height: auto; 
+    height: auto; /* Сохраняем пропорции для десктопной версии */
     border-radius: 50%;
     margin-left: 16%;
-    margin-top: 1%;
-    float: none; 
+    margin-top: 0; /* Убираем верхний отступ для выравнивания */
   }
   .profile-info p {
     font-size: 1vw;

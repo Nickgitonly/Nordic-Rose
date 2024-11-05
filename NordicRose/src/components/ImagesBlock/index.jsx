@@ -4,10 +4,10 @@ function ImagesBlock() {
     return (
         <div>
             <div className="image-section">
-            <img src="/img/image 2.png" alt="blog main image" />
+            <img src="images/image 2.png" alt="blog main image" />
             </div>
             <div className="line">
-                <img src="/img/Line 3.png" alt="" />
+                <img src="images/Line 3.png" alt="" />
         </div>
         </div> 
     );

@@ -9,8 +9,8 @@ function ImagesBlock() {
             <div className="line">
                 <img src="/img/Line 3.png" alt="" />
         </div>
-        </div>
+        </div> 
     );
-}
+} 
 
 export default ImagesBlock;

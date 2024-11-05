@@ -8,8 +8,8 @@
 
     
     .btn {
-        background-color: $button-color;
-        color: $button-text-color;
+        background-color: #000000;
+        color: #fff;
         border: none;
         padding: 1vw 4vw;
         transition: background-color 0.3s ease;
@@ -18,7 +18,7 @@
         border-radius: 5px;
     
         &:hover {
-            background-color: $button-hover-color;
+            background-color: #e7e7e7;
         }
     }
 }
@@ -34,8 +34,8 @@
        
     
           .btn {
-            background-color: $button-color;
-            color: $button-text-color;
+            background-color: #000000;
+            color:  #fff;
             border: none;
             transition: background-color 0.3s ease;
             width: 20vw;
@@ -44,7 +44,7 @@
             
         
             &:hover {
-              background-color: $button-hover-color;
+              background-color: #e7e7e7;
           }
           }
       }

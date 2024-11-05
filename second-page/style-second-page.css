@@ -73,16 +73,18 @@ body {
 }
 
 .image-section img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 9vw 0;
   width: 100%;
-  max-width: 100%;
-  margin: 20px 0px;
 }
 
 .line img {
-  width: 90%;
+  width: 80%;
   display: flex;
   justify-content: center;
-  margin: 0 auto;
+  margin-left: 5%;
 }
 
 .intro {
@@ -91,66 +93,63 @@ body {
   display: flex;
   justify-content: center;
   font-family: "NewYorkExtraLarge";
-  font-weight: 800;
-  line-height: 1.5;
-  margin-top: 50px;
+  font-weight: 700;
+  line-height: 10vw;
+  margin-top: 5vw;
 }
 
 .grost {
   font-size: 4vw;
-  margin-left: 20px;
-  margin-top: 40px;
   text-align: center;
   display: flex;
   justify-content: center;
   font-family: "SF Mono", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
+  margin-top: 5vw;
 }
 
+.author-info {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
 .author-info .author-details {
   display: flex;
   align-items: center;
-  margin-top: 11px;
-  margin-bottom: 20px;
-  width: 300px;
-  margin-right: 43%;
+  margin: 2vw 0;
+  justify-content: space-between;
 }
 .author-info .author-details .mika {
-  font-size: 3vw;
   font-family: "SF Mono", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
+  margin-left: 3vw;
 }
 .author-info .author-details .art {
-  font-size: 2vw;
   font-family: "SF Mono", sans-serif;
   font-weight: 400;
+  margin-left: 3vw;
 }
 .author-info .author-details img {
-  display: flex;
   border-radius: 50%;
-  width: 13vw;
-  margin-right: 3%;
+  margin-left: 10px;
 }
 
 .social-icons {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 3px;
+  justify-content: center;
+  padding: 0.5vw;
   background-color: #f7f7f7;
   border-radius: 5px;
-  margin-top: 10px;
-  width: 80%;
+  width: 90vw;
 }
 .social-icons .btn {
   background-color: rgb(255, 255, 255);
   color: #fff;
   border: none;
-  padding: 4px 20px;
-  cursor: pointer;
+  padding: 1vw 4vw;
   transition: background-color 0.3s ease;
-  width: 100%;
-  height: 7vw;
+  width: 90vw;
+  height: 10vw;
   border-radius: 5px;
 }
 .social-icons .btn:hover {
@@ -158,73 +157,79 @@ body {
 }
 
 .text-section {
-  margin-top: 35px;
-  margin-left: 26px;
-  font-size: 3vw;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
   font-family: "New Medium";
-  font-weight: 335;
-  width: 80vw;
+  font-weight: 100;
 }
 .text-section h2 {
-  margin-top: 20px;
-  font-size: 4vw;
-  margin-left: 12px;
+  margin: 2.5vw 0 1.5vw;
 }
 
-.image-caption-section {
-  margin-top: 20px;
-}
-.image-caption-section img {
-  width: 90%;
-  margin: 0 auto;
-}
-.image-caption-section p {
-  font-size: 2vw;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-  font-family: "SF Mono", sans-serif;
-  font-weight: 400;
-  width: 70%;
+.text-header {
+  margin: 5vw auto 2vw auto;
+  width: 80%;
+  font-family: "New Medium";
+  font-weight: 100;
+  list-style-type: none;
 }
 
 .text-share {
-  margin-top: 20px;
-  font-size: 2vw;
-  margin-left: auto;
+  margin-top: 10vw;
+  text-align: center;
+  font-family: "SF Mono", sans-serif;
+  font-weight: 400;
+  margin-right: 73%;
 }
 
 .tags {
-  font-size: 2vw;
-  margin-left: auto;
+  text-align: left;
+  font-family: "SF Mono", sans-serif;
+  font-weight: 400;
+  margin-left: 4%;
+  padding-bottom: 4vw;
+}
+
+.image-caption-section img {
+  width: 100%;
+  margin-top: 5vw;
+}
+.image-caption-section p {
+  text-align: center;
+  font-size: 2.7vw;
+  width: 100%;
+  margin-bottom: 5vw;
+  font-family: "SF Mono", sans-serif;
+  font-weight: 400;
 }
 
 .line6 img {
-  max-width: 80%;
+  max-width: 90%;
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 25px;
+  justify-content: center;
+  margin-left: 5%;
+  margin-bottom: 3vw;
 }
 
 .profile-info {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
+  max-width: 100%;
+  margin-bottom: 10vw;
 }
 .profile-info img {
-  width: 15vw;
-  height: auto;
   border-radius: 50%;
-  margin-left: 10vw;
+  width: 20vw;
+  margin-left: 7vw;
+  margin-right: 2vw;
 }
 .profile-info p {
-  margin-top: 20px;
-  font-size: 2.5vw;
-  line-height: 1.6;
-  margin-left: 10px;
+  margin-top: 1vw;
+  font-size: 2.4vw;
   font-family: "SF Mono", sans-serif;
   font-weight: 400;
+  width: 100vw;
 }
 
 @font-face {
@@ -446,6 +451,15 @@ h1 {
     padding: 10px 30px;
   }
 
+}
+@media (min-width: 768px) {
+  .newsletter-container {
+    border: 1px solid #000;
+  }
+}
+@media (min-width: 1024px) {
+  .article-grid, .article-grid-second-row {
+
   h1 {
     font-size: 32px;
   }
@@ -522,7 +536,7 @@ h1 {
     justify-content: center;
   }
 }
-@media screen and (min-width: 1024px) {
+@media (min-width: 1024px) {
   .dropdown-content {
     display: block;
     display: flex;
@@ -561,13 +575,12 @@ h1 {
     margin-left: 25%;
   }
   .intro {
-    font-size: 2.5vw;
+    font-size: 3vw;
     text-align: center;
-    margin-top: 40px;
-    margin-left: 10%;
-    margin-right: 10%;
     display: flex;
     justify-content: center;
+    line-height: 3vw;
+    padding-top: 3vw;
   }
   .grost {
     font-size: 2vw;
@@ -578,76 +591,79 @@ h1 {
     display: flex;
     justify-content: center;
   }
-  .author-details {
+  .author-info {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 10%;
+    margin-left: 5px;
+    padding-top: 1vw;
+    margin-bottom: 10px;
   }
-  .author-details img {
-    width: 2vw;
+  .author-info img {
+    width: 5vw;
     height: auto;
     border-radius: 50%;
-    margin-right: 20px;
   }
-  .author-details .mika, .author-details .art {
-    font-size: 1.3vw;
+  .author-info .mika, .author-info .art {
+    font-size: 1.2vw;
     text-align: left;
   }
   .social-icons {
     display: flex;
     justify-content: center;
-    width: 43%;
-    margin-left: 28%;
-    padding: 2px;
+    background-color: #f7f7f7;
+    margin: 2vw;
+    border-radius: 5px;
+    width: 50%;
+    margin-left: 24vw;
   }
   .social-icons .btn {
-    width: 15vw;
-    height: 5vh;
-    font-size: 1.2vw;
-    margin-left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease;
+    width: 20vw;
+    height: 4vw;
+    border-radius: 5px;
+  }
+  .social-icons .btn:hover {
+    background-color: #e7e7e7;
   }
   .text-section {
-    font-size: 1.5vw;
+    font-size: 1.4vw;
     width: 50%;
     margin-left: 25%;
-    text-align: left;
+  }
+  .text-header {
+    font-size: 1.4vw;
+    margin-left: 25%;
+    list-style-type: none;
   }
   h2 {
-    font-size: 1vw;
+    font-size: 2vw;
     margin-top: 20px;
     text-align: left;
-    margin-left: 10%;
+    margin-left: 1%;
   }
   .image-caption-section img {
-    width: 70%;
+    width: 80%;
     margin-left: 10%;
     display: flex;
     justify-content: center;
   }
   .image-caption-section p {
-    font-size: 1.2vw;
-    width: 65%;
-    margin-left: 10%;
+    font-size: 1.3vw;
     text-align: center;
   }
-  .image-caption-section p img {
-    display: flex;
-    justify-content: center;
-    margin-left: 50%;
-  }
   .text-share, .tags {
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     margin-left: 25%;
-    text-align: left;
+    margin-top: 2vw;
   }
   .line6 img {
     width: 51%;
     margin-left: 25%;
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
   }
@@ -663,10 +679,10 @@ h1 {
     height: auto;
     border-radius: 50%;
     margin-left: 16%;
-    margin-top: 2%;
+    margin-top: 1%;
   }
   .profile-info p {
-    font-size: 1.2vw;
+    font-size: 1vw;
     line-height: 1.6;
     margin-left: 1%;
     text-align: left;

@@ -9,7 +9,7 @@ function ImagesBlock() {
             <div className="line">
                 <img src="images/Line 3.png" alt="" />
         </div>
-        </div> 
+        </div>  
     );
 } 
 

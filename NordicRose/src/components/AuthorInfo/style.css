@@ -2,34 +2,27 @@
     display: flex;
     justify-content: center;
     width: 80%;
-   
-    
-    .author-details {
-        display: flex;
-        align-items: center;
-        margin: 2vw  0;
-        justify-content: space-between; 
-    
-        .mika {
-           
-            font-family: 'SF Mono', sans-serif;
-            font-weight: 600;
-            margin-left: 3vw;
-          
-        }
-    
-        .art {
-            font-family: 'SF Mono', sans-serif;
-            font-weight: 400;
-            margin-left: 3vw;
-        }
-    
-        img {
-            border-radius: 50%;
-            margin-left: 10px;
-        }
-    }
-}
+  }
+  .author-info .author-details {
+    display: flex;
+    align-items: center;
+    margin: 2vw 0;
+    justify-content: space-between;
+  }
+  .author-info .author-details .mika {
+    font-family: "SF Mono", sans-serif;
+    font-weight: 600;
+    margin-left: 3vw;
+  }
+  .author-info .author-details .art {
+    font-family: "SF Mono", sans-serif;
+    font-weight: 400;
+    margin-left: 3vw;
+  }
+  .author-info .author-details img {
+    border-radius: 50%;
+    margin-left: 10px;
+  }
 
 @media  (min-width: 1024px) {
     .author-info {
@@ -39,17 +32,14 @@
         margin-left: 5px;
         padding-top: 1vw;
         margin-bottom: 10px;
-  
-        img {
-            width: 5vw;
-            height: auto;
-            border-radius: 50%;
-          
-        }
-  
-        .mika, .art {
-            font-size: 1.2vw;
-            text-align: left;
-        }
+      }
+      .author-info img {
+        width: 5vw;
+        height: auto;
+        border-radius: 50%;
+      }
+      .author-info .mika, .author-info .art {
+        font-size: 1.2vw;
+        text-align: left;
     }
 }

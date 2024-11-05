@@ -34,8 +34,8 @@
        
     
           .btn {
-            background-color: #000000;
-            color:  #fff;
+            background-color: #fff;
+            color:  #000000;
             border: none;
             transition: background-color 0.3s ease;
             width: 20vw;

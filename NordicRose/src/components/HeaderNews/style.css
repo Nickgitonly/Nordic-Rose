@@ -15,7 +15,6 @@
     text-align: center;
     display: flex;
     justify-content: center;
-
     font-family: "NewYorkExtraLarge";
     font-weight: 700;
     line-height: 5vw;
@@ -25,7 +24,6 @@
   }
   .grost {
     font-size: 3vw;
-
     text-align: center;
     display: flex;
     justify-content: center;
@@ -34,6 +32,7 @@
     margin-top: 5vw;
     margin-left: 21%;
     width: 60%;
+    margin-bottom: 6vw;
   }
 @media (min-width:1024px){
   .intro{

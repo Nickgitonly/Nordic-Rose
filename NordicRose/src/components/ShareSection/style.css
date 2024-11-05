@@ -6,7 +6,6 @@
   margin-right: 73%;
 }
 
-/* Комп'ютерна версія */
 @media (min-width: 1024px) {
   .text-share, .tags {
     font-size: 1.2vw;
@@ -15,12 +14,10 @@
   }
 }
 
-/* Мобільна версія */
+
 @media (max-width: 768px) {
   .text-share {
     font-size: 4vw;
-    margin-top: 15vw;
-    margin-right: 0;
     text-align: center;
   }
 }

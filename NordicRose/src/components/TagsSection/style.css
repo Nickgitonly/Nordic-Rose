@@ -7,10 +7,10 @@
   }
   
   .line6 img {
-    max-width: 90%;
+    max-width: 100%;
     display: flex;
     justify-content: center;
-    margin-left: 5%;
+    margin-left: 30%;
     margin-bottom: 3vw;
   }
         @media  (min-width: 1024px){
@@ -19,7 +19,7 @@
                 margin-left: 25%;
                 margin-top: 2vw;
               }
-             .line img {
+             .line6 img {
                 width: 50%;
                 display: flex;
                 justify-content: center;

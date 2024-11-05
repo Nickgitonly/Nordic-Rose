@@ -6,6 +6,6 @@ function ShareSection() {
                 <p>Share:</p>
         </div>
     );
-}
+} 
 
 export default ShareSection;

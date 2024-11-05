@@ -4,22 +4,26 @@
     width: 80%;
     font-family: "New Medium";
     font-weight: 100;
-  }
-  .text-section h2 {
-    margin: 2.5vw 0 1.5vw;
-  }
-  .image-caption-section img {
-    width: 100%;
-    margin-top: 5vw;
-  }
-  .image-caption-section p {
-    text-align: center;
-    font-size: 2.7vw;
-    width: 100%;
-    margin-bottom: 5vw;
-    font-family: "SF Mono", sans-serif;
-    font-weight: 400;
-  }
+    
+    h2 {
+        margin: 2.5vw 0 1.5vw;
+       }
+    }
+    .image-caption-section {
+        img {
+            width: 100%;
+            margin-top: 5vw;
+        }
+        
+        p {
+            text-align: center;
+            font-size:2.7vw;
+            width: 100%;
+            margin-bottom: 5vw;
+            font-family: 'SF Mono', sans-serif;
+            font-weight: 400;
+        }
+        }
     @media  (min-width: 1024px){
         .text-section {
             font-size: 1.4vw;
@@ -30,5 +34,5 @@
         .image-caption-section p {
             font-size: 1.3vw;
             text-align: center;
-          }
+        }
     }

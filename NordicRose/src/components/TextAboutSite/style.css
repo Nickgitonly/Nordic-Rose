@@ -4,6 +4,7 @@
     width: 80%;
     font-family: "New Medium";
     font-weight: 100;
+    font-size: 5vw;
   }
   .text-section h2 {
     margin: 2.5vw 0 1.5vw;
@@ -12,6 +13,6 @@
     .text-section {
         font-size: 1.4vw;
         width: 50%;
-        margin-left: 25%;
+       
       }
     }

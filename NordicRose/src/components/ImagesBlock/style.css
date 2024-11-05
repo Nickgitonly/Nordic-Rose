@@ -5,24 +5,22 @@
     margin: 9vw 0;
     width: 100%;
   }
-  
+
   .line img {
     width: 80%;
     display: flex;
     justify-content: center;
     margin-left: 5%;
   }
+
 @media  (min-width: 1024px) {
   .image-section img {
-      display: flex;
-      justify-content: center;
-      align-items: center;
       margin: 2vw 0;
       width: 100%;
     }
+
     .line img {
       width: 50%;
-      display: flex;
-      justify-content: center;
       margin-left: 25%;
-}}
+}
+}

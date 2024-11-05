@@ -1,0 +1,41 @@
+.intro {
+    font-size: 5vw; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'NewYorkExtraLarge';
+    font-weight: 700;
+    line-height:10vw;
+    margin-top: 5vw;
+    }
+    
+    .grost {
+    font-size: 4vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'SF Mono', sans-serif;
+    font-weight: 300;
+    margin-top: 5vw;
+}
+
+@media  (min-width: 1024px) {
+    .intro {
+        font-size: 3vw;
+        text-align: center;
+        display: flex;
+        justify-content:center;
+        line-height:3vw;
+        padding-top: 3vw;
+    }
+  
+    .grost {
+        font-size: 2vw;
+        margin-top: 20px;
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        justify-content: center;
+    }
+}

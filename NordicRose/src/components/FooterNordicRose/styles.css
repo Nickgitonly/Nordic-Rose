@@ -1,0 +1,121 @@
+.ticker-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.ticker-block .ticker {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: ticker 10s linear infinite;
+}
+
+.ticker-block h1 {
+  font-size: 3rem;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+
+.ticker-block p {
+  text-align: center;
+  max-width: 500px;
+  line-height: 1.5;
+  margin: 0 20px; /* added margin for indents */
+}
+
+.centered-text {
+  background-image: url("../src/assets/images/NORDICROSE_WHITE.png");
+  width: 290px;
+  height: 27px;
+}
+
+.ticker-block ul {
+  list-style: none;
+  margin: 2rem 0;
+  padding: 0;
+  display: flex;
+}
+
+.ticker-block li {
+  margin: 0 1rem;
+  text-decoration: underline;
+}
+
+.ticker-block a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.ticker-block footer {
+  margin-top: 2rem;
+}
+
+@keyframes ticker {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.ticker-block .ticker span {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-right: 20px;
+}
+
+@media (max-width: 320px) {
+  .ticker-block p {
+    margin: 0 20px;
+  }
+  .ticker-block .ticker span {
+    font-size: 1rem;
+    margin-right: 20px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+  .ticker-block p {
+    margin: 0 20px;
+  }
+  .ticker-block .ticker span {
+    font-size: 1rem;
+    margin-right: 20px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+  .ticker-block .ticker {
+    animation: ticker 10s linear infinite;
+  }
+}
+
+@media (min-width: 1024px) {
+  .ticker-block .ticker {
+    animation: none;
+  }
+}
+
+span:nth-child(-n + 3) {
+  margin-bottom: 1px;
+}
+/* тоже пересмотреть */
+.ticker span:nth-child(even) {
+  font-family: "SF Pro Display";
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 28px;
+  letter-spacing: 10%;
+}
+footer {
+  margin-bottom: 1.5rem;
+}

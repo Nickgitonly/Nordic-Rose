@@ -6,6 +6,7 @@
     list-style-type: none;
 }
 .text-section {
+
     width: 80%;
     font-family: 'New Medium';
     font-weight: 100;
@@ -14,12 +15,6 @@
        }
 }
 
-    font-size: 1.4vw;
-    width: 50%;
-    margin-left: 60%;
-    list-style-type: disc;
-  }
->>>>>>> 913eb7096aa6be0f169bfdf2dba9de06037c38b2
 
 @media  (min-width: 1024px) {
     .text-header{

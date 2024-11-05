@@ -12,7 +12,7 @@ function TextSection() {
                 <img src="images/Rectangle 88.png" alt="" />
                 <p>Image caption centered this way and I’ll make this a bit longer to indicate the amount of line-height.</p>
             </div>
-        </div>
+        </div> 
     );
 }  
 

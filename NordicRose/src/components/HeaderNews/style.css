@@ -15,7 +15,9 @@
     font-family: "NewYorkExtraLarge";
     font-weight: 700;
     line-height: 10vw;
-    margin-top: 5vw;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 1vw;
   }
   
   .grost {

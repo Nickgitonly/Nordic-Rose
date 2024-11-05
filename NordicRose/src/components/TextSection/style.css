@@ -7,9 +7,10 @@
   }
   .text-section h2 { 
     margin: 2.5vw 0 1.5vw;
+    font-weight: 700;
   }
   .image-caption-section img {
-    width: 100%;
+    width: 100%; 
     margin-top: 5vw;
   }
   .image-caption-section p {

@@ -8,7 +8,7 @@
 .text-section {
   font-size: 1.4vw;
   width: 50%;
-  list-style-type: disc;
+  list-style-type: disc; 
 }
 
 @media  (min-width: 1024px) {

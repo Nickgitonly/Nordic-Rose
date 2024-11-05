@@ -14,6 +14,6 @@ function TextSection() {
             </div>
         </div>
     );
-}
+} 
 
 export default TextSection;

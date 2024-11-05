@@ -10,7 +10,7 @@ function ImagesBlock() {
                 <img src="images/Line 3.png" alt="" />
         </div>
         </div>  
-    );
+    ); 
 } 
 
 export default ImagesBlock;

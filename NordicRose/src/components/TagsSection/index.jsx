@@ -7,7 +7,7 @@ function TagsSection() {
                     <p>Tags: product design, culture</p>
             </div>
             <div className="line6">
-                    <img src="/img/Line 6.png" alt="" />
+                    <img src="images/Line 6.png" alt="" />
             </div>
         </div>
     );

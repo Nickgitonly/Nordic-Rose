@@ -27,7 +27,7 @@
   margin-bottom: 8vw;
   margin-top: 3vw;
   font-family: "SF Pro", sans-serif;
-  font-weight: 400;
+  font-weight: 200;
   margin-left: 10%;
 }
 @media  (min-width: 1024px){
@@ -46,7 +46,7 @@
       margin-left: 34vw;
       margin-top: 1vw;
       margin-bottom: 3vw;
-      font-weight: 600;
+      font-weight: 500;
     }
     .text-section {
       font-size: 4vw;

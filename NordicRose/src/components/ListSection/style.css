@@ -17,7 +17,7 @@
 @media  (min-width: 1024px) {
   .text-header{
       font-size: 1.4vw;
-      margin-left: 25%;
+      padding-left: 15%;
       list-style-type: none;
     }
   .text-list {

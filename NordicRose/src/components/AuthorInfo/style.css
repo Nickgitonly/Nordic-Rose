@@ -17,19 +17,20 @@
     font-family: "SF Mono", sans-serif;
     font-weight: 600;
     margin-left: 3vw;
-    font-size: 4.2vw;
+    font-size: 3.7vw;
     text-align: left;
   }
   .author-details .art {
     font-family: "SF Mono", sans-serif;
     font-weight: 400;
     margin-left: 3vw;
-    font-size: 4.2vw;
+    font-size: 3.2vw;
     text-align: left;
   }
   .author-info .author-details img {
     border-radius: 50%;
-    margin-left: 10px;
+    margin-left: 1px;
+    width: 18%;
   }
 @media (min-width: 1024px) {
   .author-info {

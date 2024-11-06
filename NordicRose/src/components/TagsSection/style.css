@@ -3,14 +3,13 @@
   font-weight: 400;
   padding-bottom: 4vw;
   padding-top: 4vw;
-  font-size: 3vw;
-  padding-left: 4.3vw;
+  font-size: 4vw;
+  padding-left: 5.7vw;
   
 }
 
 .underline {
-  position: relative; 
-  text-decoration: none; 
+  position: relative;  
 }
 
 .underline:after { 
@@ -28,10 +27,11 @@
 }
 
 @media (min-width: 1024px) {
-  .text-share, .tags {
-    font-size: 1.4vw;
-    margin-left: 25%;
-  }
+   .tags {
+    font-size: 1.1vw;
+    margin-left: 19%;
+    padding-top: 0.4vw;
+    }
   .line6 img {
     width: 50%;
     display: flex;

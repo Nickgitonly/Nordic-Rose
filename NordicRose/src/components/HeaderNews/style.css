@@ -11,27 +11,27 @@
 }
 
 .intro {
-    font-size: 5vw;
+    font-size: 6vw;
     text-align: center;
     display: flex;
     justify-content: center;
     font-family: "NewYorkExtraLarge";
     font-weight: 700;
-    line-height: 5vw;
-    width: 60%;
-    margin-left: 20%;
+    line-height: 8vw;
+    width: 50%;
+    margin-left: 25%;
     padding-top: 3vw;
   }
   .grost {
-    font-size: 3vw;
+    font-size: 3.4vw;
     text-align: center;
     display: flex;
     justify-content: center;
     font-family: "SF Mono", sans-serif;
     font-weight: 300;
     margin-top: 5vw;
-    margin-left: 21%;
-    width: 60%;
+    margin-left: 15%;
+    width: 70%;
     margin-bottom: 6vw;
   }
 @media (min-width:1024px){
@@ -40,9 +40,16 @@
     line-height: 3vw;
     width: 40%;
     margin-left: 30%;
+
+
   }
   .grost{
-    font-size: 1.5vw;
+    width: 33%;
+    font-size: 1.1vw;
+    margin-left: 34%;
+    margin-top: 2vw;
+    margin-bottom: 3.2vw;
+    
   }
 }
 

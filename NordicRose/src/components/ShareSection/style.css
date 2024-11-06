@@ -1,5 +1,6 @@
 .text-share {
   margin-top: 10vw;
+  margin-bottom: 2.3vw;
   text-align: center;
   font-family: "SF Mono", sans-serif;
   font-weight: 400;
@@ -7,10 +8,11 @@
 }
 
 @media (min-width: 1024px) {
-  .text-share, .tags {
+  .text-share {
     font-size: 1.2vw;
     margin-left: 25%;
     margin-top: 2vw;
+    margin-bottom: 1vw;
   }
 }
 

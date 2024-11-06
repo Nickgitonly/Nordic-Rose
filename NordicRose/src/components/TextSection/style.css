@@ -1,39 +1,56 @@
 .text-section {
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    font-family: "New Medium";
-    font-weight: 100;
-  }
-  .text-section h2 {
-    margin: 2.5vw 0 1.5vw;
-  }
-  
+  font-family: "New Medium";
+  font-weight: 100;
+  width: 90%;
+}
+.text-section p{
+  margin-top: 4vw;
+}
+.text-section h2 { 
+ padding-top: 7vw;
+  font-weight: 700;
+  font-size: 6vw;
+}
 .image-caption-section img {
-    width: 100%;
-    margin-top: 5vw;
-  }
-  .image-caption-section p {
-    text-align: center;
-    font-size: 2.7vw;
-    width: 100%;
-    margin-bottom: 5vw;
-    font-family: "SF Mono", sans-serif;
-    font-weight: 400;
-  }
-@media  (min-width: 1024px){}
-.text-section {
-    font-size: 1.4vw;
-    width: 50%;
-    margin-left: 25%;
-  }
-  .image-caption-section img {
-    width: 80%;
-    margin-left: 10%;
-    display: flex;
-    justify-content: center;
-  }
-  .image-caption-section p {
-    font-size: 1.3vw;
-    text-align: center;
-  }
+  width: 100%; 
+  margin-top: 5vw;
+}
+.image-caption-section p {
+  text-align: center;
+  font-size: 3vw;
+  width: 80%;
+  margin-bottom: 8vw;
+  margin-top: 3vw;
+  font-family: "SF Pro", sans-serif;
+  font-weight: 400;
+  margin-left: 10%;
+}
+@media  (min-width: 1024px){
+
+    .image-caption-section img {
+      width: 60%;
+      margin-left: 19.1vw;
+      display: flex;
+      justify-content: center;
+      margin-top: 2.6vw;
+    }
+    .image-caption-section p {
+      font-size: 1vw;
+      text-align: center;
+      width: 28%;
+      margin-left: 34vw;
+      margin-top: 1vw;
+      margin-bottom: 3vw;
+    }
+    .text-section {
+      font-size: 4vw;
+      width: 80%;
+    }
+    .text-section p{
+      margin-top: 2vw;
+    }
+    .text-section h2 { 
+     padding-top: 0vw;
+      font-size: 1.8vw;
+    }
+}

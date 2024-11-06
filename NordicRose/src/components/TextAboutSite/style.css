@@ -1,19 +1,19 @@
 .text-section {
+
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    font-family: 'New Medium';
+    font-family: "New Medium";
     font-weight: 100;
-    
-    h2 {
-        margin: 2.5vw 0 1.5vw;
-       }
-    }
-    @media  (min-width: 1024px){
-        .text-section {
-            font-size: 1.4vw;
-            width: 50%;
-            margin-left: 25%;
-          
-        }
+    font-size: 5vw;
+  }
+  .text-section h2 {
+    margin: 2.5vw 0 1.5vw;
+  }
+@media  (min-width: 1024px){
+    .text-section {
+        font-size: 1.4vw;
+        width: 50%;
+       
+      }
     }

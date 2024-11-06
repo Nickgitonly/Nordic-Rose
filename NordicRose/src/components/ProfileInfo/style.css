@@ -47,7 +47,8 @@
     margin-top: 2.2vw;
   }
   .profile-info p { 
-    font-size: 1.35vw; 
+    font-size: 1.3vw; 
     line-height: 1.4;
+    margin-left: 2vw;
   }
 }

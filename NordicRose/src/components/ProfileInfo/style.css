@@ -1,10 +1,16 @@
 @import url("https://fonts.cdnfonts.com/css/sf-mono");
+@font-face {
+  font-family: "NewYorkSmall";
+  src: url("../start-page/font/NewYorkSmall-Black.woff2") format("woff2");
+}
+
 .profile-info {
   display: flex;
   justify-content: center;
   align-items: flex-start; 
   max-width: 100%;
   margin-left: 6vw;
+  margin-top: 3.8vw;
 }
 
 .profile-info img {
@@ -17,14 +23,21 @@
 
 .profile-info p {
   margin: 2.1vw 10px; 
-  font-size: 3vw; 
-  font-family: "SF Pro", sans-serif;
+  font-size: 3.4vw; 
+  font-family: "NewYorkSmall"; 
   font-weight: 400;
   line-height: 1.6;
 }
+
+.profile-info .name {
+  font-family: "SF Pro", sans-serif; 
+  font-weight: 700; 
+}
+
 @media (min-width: 1024px) {
   .profile-info {
     max-width: 70%;
+    margin-top: 0vw;
   }  
   .profile-info img {
     width: 7vw;
@@ -33,10 +46,7 @@
     margin-left: 30%; 
   }
   .profile-info p { 
-    font-size: 1.1vw; 
-    font-family: "SF Pro", sans-serif;
-    font-weight: 400;
+    font-size: 1.45vw; 
     line-height: 1.6;
-   
   }
 }

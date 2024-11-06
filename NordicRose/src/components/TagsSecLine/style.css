@@ -1,25 +1,11 @@
-.tags {
-    font-family: "SF Pro", sans-serif;
-    font-weight: 400;
-    padding-bottom: 4vw;
-    padding-top: 4vw;
-    font-size: 4vw;
-    padding-left: 5.7vw;
-    
-  }
 .line6 img {
-    max-width: 90%;
+    max-width: 50%;
     display: flex;
     justify-content: center;
     margin-left: 5%;
   }
-
   @media (min-width: 1024px) {
-    .tags {
-        font-size: 1.1vw;
-        margin-left: 19.3%;
-        padding-top: 2vw;
-        }
+
    .line6 img {
      width: 50%;
      display: flex;

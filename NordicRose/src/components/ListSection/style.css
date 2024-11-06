@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "New Medium";
+  src: url("../start-page/font/NewYorkLarge-Medium.woff2") format("woff2");
+}
 .text-header{
     margin : 6vw auto 2vw auto;
     width: 80%;
@@ -12,7 +16,8 @@
     margin-left: 14.9vw;
     font-family: 'New Medium';
     line-height: 9vw;
-    list-style-type:square;
+    list-style-type:"◆";
+    font-family: 'New Medium';
 }
 
 @media  (min-width: 1024px) {
@@ -22,13 +27,15 @@
       padding-left: 15%;
       list-style-type: none;
     }
-  .text-list {
+    .text-list {
       font-size: 1.4vw;
       width: 70%;
       margin-left: 26.4vw;
-      margin-right: 1vw;
-      font-family: 'New Medium';
-      list-style-type: "◆";
       line-height: 3.6vw;
+    }
+    .text-list li::before {
+      list-style-type: "◆";         
+      font-size:0.1vw;     
+      margin-right: 0.5vm;  
   }
 }

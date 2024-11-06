@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     width: 90%;
-    margin-left: 5px;
+    margin-left: -16vw;
     padding-top: 1vw;
     margin-bottom: 10px;
   }
@@ -17,21 +17,21 @@
   .author-details .mika {
     font-family: "SF Mono", sans-serif;
     font-weight: 600;
-    margin-left: 3vw;
-    font-size: 3.7vw;
+    margin-left: -3.1vw;
+    font-size: 3.2vw;
     text-align: left;
   }
   .author-details .art {
     font-family: "SF Pro", sans-serif;
     font-weight: 400;
-    margin-left: 3vw;
-    font-size: 3.2vw;
+    margin-left: -3.1vw;
+    font-size: 2.9vw;
     text-align: left;
   }
   .author-info .author-details img {
     border-radius: 50%;
     margin-left: 1px;
-    width: 18%;
+    width: 22%;
   }
 @media (min-width: 1024px) {
   .author-info {
@@ -40,6 +40,7 @@
     align-items: center;
     padding-top: 0vw;
     width: 73%;
+    margin-left: -3.4vw;
   }
       .author-info img {
         width: 3.8vw;

@@ -2,60 +2,56 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 90%;
     margin-left: 5px;
     padding-top: 1vw;
     margin-bottom: 10px;
   }
-  .author-info .author-details {
+ .author-details {
     display: flex;
     align-items: center;
     margin: 2vw 0;
     justify-content: space-between;
   }
-  .author-info .author-details .mika {
+  .author-details .mika {
     font-family: "SF Mono", sans-serif;
     font-weight: 600;
     margin-left: 3vw;
-    font-size: 4.2vw;
+    font-size: 3.7vw;
     text-align: left;
   }
-  .author-info .author-details .art {
+  .author-details .art {
     font-family: "SF Mono", sans-serif;
     font-weight: 400;
     margin-left: 3vw;
-    font-size: 4.2vw;
+    font-size: 3.2vw;
     text-align: left;
   }
   .author-info .author-details img {
     border-radius: 50%;
-    margin-left: 10px;
+    margin-left: 1px;
+    width: 18%;
   }
-
-/* Комп'ютерна версія */
 @media (min-width: 1024px) {
   .author-info {
     display: flex;
-
     justify-content: center;
     align-items: center;
-    margin-left:5px;
-    padding-top: 1vw;
-    margin-bottom: 10px;
+    padding-top: 0vw;
+    width: 73%;
   }
       .author-info img {
-        width: 5vw;
-        height: auto;
+        width: 3.8vw;
         border-radius: 50%;
       }
       .author-info .author-details .mika {
         margin-left: 1vw;
-        font-size: 1.3vw;
+        font-size: 1.2vw;
         
       }
       .author-info .author-details .art {
         margin-left: 1vw;
-        font-size: 1.0vw;
+        font-size: 0.9vw;
         
       }
 }

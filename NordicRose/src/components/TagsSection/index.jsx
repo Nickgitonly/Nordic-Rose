@@ -5,7 +5,7 @@ function TagsSection() {
         <div>
             <div className="tags">
             <p>
-                Explore the world of <span className="underline">product design</span> and <span className="underline">culture</span>.
+            Tags:<span className="underline">product design</span>,<span className="underline">culture</span>.
             </p>
             </div>
             <div className="line6">

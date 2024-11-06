@@ -1,5 +1,6 @@
+@import url("https://fonts.cdnfonts.com/css/sf-mono");
 .tags {
-  font-family: "SF Mono", sans-serif;
+  font-family: "SF Pro", sans-serif;
   font-weight: 400;
   padding-bottom: 4vw;
   padding-top: 4vw;
@@ -17,24 +18,13 @@
   width: 20%; 
   background-color: #000; 
   position: absolute; 
-}
+} 
 
-.line6 img {
-  max-width: 90%;
-  display: flex;
-  justify-content: center;
-  margin-left: 5%;
-}
 
 @media (min-width: 1024px) {
    .tags {
     font-size: 1.1vw;
-    margin-left: 19%;
-    padding-top: 0.4vw;
+    margin-left: 19.3%;
+    padding-top: 2vw;
     }
-  .line6 img {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    margin-left: 25%;
-  }}
+  }

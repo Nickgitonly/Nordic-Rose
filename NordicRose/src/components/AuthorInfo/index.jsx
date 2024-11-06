@@ -10,8 +10,8 @@ function AuthorInfo() {
                     <p className="art">Apr 15, 2020 · 4 min read</p>
                 </div>
             </div>
-        </div>
+        </div> 
     );
-} 
+}  
 
 export default AuthorInfo;

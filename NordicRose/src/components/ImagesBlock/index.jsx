@@ -6,9 +6,6 @@ function ImagesBlock() {
             <div className="image-section">
             <img src="images/image 22.png" alt="blog main image" />
             </div>
-            <div className="line">
-                <img src="images/Line 3.png" alt="" />
-        </div>
         </div>  
     ); 
 } 

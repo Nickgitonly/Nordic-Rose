@@ -1,11 +1,13 @@
+@font-face {
+  font-family: "New Medium";
+  src: url("../start-page/font/NewYorkLarge-Medium.woff2") format("woff2");
+}
 .text-section {
     margin-left: 5vw;
     margin-top: 4vw;
     width: 92%;
     font-size: 3.8vw;
     font-family: "New Medium";
-    font-weight: 100;
-  
   }
   .text-section h2 {
     margin: 2.5vw 0 1.5vw;

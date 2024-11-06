@@ -19,9 +19,16 @@
     font-size: 4.8vw;
     line-height: 9vw;
     list-style-type:"◆";
-    font-family: 'New Medium';
 }
-
+.text-list2 {
+  font-size: 4vw;
+  width: 80%;
+  margin-left: 14.9vw;
+  font-family: 'New Medium';
+  font-size: 4.8vw;
+  line-height: 7vw;
+  list-style-type:"◆";
+}
 @media  (min-width: 1024px) {
   .text-header{
       font-size: 1.4vw;
@@ -32,12 +39,15 @@
     .text-list {
       font-size: 1.4vw;
       width: 50%;
-      margin-left: 26.4vw;
+      margin-left: 26vw;
       line-height: 3.6vw;
     }
-    .text-list li::before {
-      list-style-type: "◆";         
-      font-size:0.1vw;     
-      margin-right: 0.5vm;  
-  }
+    .text-list2 {
+      font-size: 1.4vw;
+      width: 40%;
+      font-family: 'New Medium';
+      margin-left: 26vw;
+      line-height: 2vw;
+      list-style-type:"◆";
+    }
 }

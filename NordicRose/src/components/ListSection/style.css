@@ -3,7 +3,7 @@
   src: url("../start-page/font/NewYorkLarge-Medium.woff2") format("woff2");
 }
 .text-header{
-    margin : 6vw auto 2vw auto;
+    margin : 5vw auto 1vw auto;
     width: 80%;
     font-family: 'New Medium';
     font-weight: 100;

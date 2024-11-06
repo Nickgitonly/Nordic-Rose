@@ -3,17 +3,21 @@
   src: url("../start-page/font/NewYorkLarge-Medium.woff2") format("woff2");
 }
 .text-section {
-    margin-left: 24.8vw;
-    margin-top: 4vw;
-    width: 92%;
-    font-size: 3.8vw;
-    font-family: "New Medium";
-  }
 
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-family: "New Medium";
+    font-weight: 400;
+    font-size: 5vw;
+  }
+  .text-section h2 {
+    margin: 2.5vw 0 1.5vw;
+  }
 @media  (min-width: 1024px){
     .text-section {
         font-size: 1.4vw;
-         width: 50%;
+        width: 50%;
        
       }
     }

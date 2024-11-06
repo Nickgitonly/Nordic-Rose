@@ -6,11 +6,10 @@
 .text-section {
   font-family: "New Medium";
   font-weight: 100;
+  width: 90%;
 }
 .text-section p{
   margin-top: 4vw;
-  width: 96%;
-  font-size: 3.8vw;
 }
 .text-section h2 { 
  padding-top: 8vw;
@@ -23,11 +22,13 @@
 }
 .image-caption-section p {
   text-align: center;
-  font-size: 3.6vw;
-  width: 84%;
+  font-size: 3vw;
+  width: 80%;
   margin-bottom: 8vw;
-  margin-top: 1.3vw;
+  margin-top: 3vw;
   font-family: "SF Pro", sans-serif;
+  font-weight: 200;
+  margin-left: 10%;
 }
 @media  (min-width: 1024px){
 

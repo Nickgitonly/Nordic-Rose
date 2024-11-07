@@ -14,4 +14,4 @@ function AuthorInfo() {
     );
 }  
 
-export default AuthorInfo;    
+export default AuthorInfo;     

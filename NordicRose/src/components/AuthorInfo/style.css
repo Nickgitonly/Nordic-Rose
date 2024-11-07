@@ -15,11 +15,13 @@
   justify-content: space-between;
 }
 .author-details .mika {
-  font-family: "SF Mono", sans-serif;
+  font-family: "SF Pro", sans-serif;
   font-weight: 600;
   font-size: 3.3vw;
   text-align: left;
   margin-left: -2vw;
+  transform: scaleY(0.90);
+  letter-spacing: 0.05vw;
 }
 .author-details .art {
   font-family: "SF Pro", sans-serif;
@@ -40,7 +42,7 @@
   align-items: center;
   padding-top: 0vw;
   width: 68.2vw;
-  margin-left: -1vw;
+  margin-left: -1.4vw;
 }
     .author-info img {
       width: 7.3vw;
@@ -48,12 +50,15 @@
     }
     .author-info .author-details .mika {
       font-size: 1vw;
-      margin-left: 1vw;
-      
+      margin-left: 0vw;
+      transform: scaleY(0.97);
+      letter-spacing: 0.05vw;
     }
     .author-info .author-details .art {
-      margin-left: 1vw;
+      margin-left: 0vw;
       font-size: 1vw;
       font-family: "SF Pro", sans-serif;
+      transform: scaleY(0.98);
+      margin-top: 0.5vw;
     }
 }

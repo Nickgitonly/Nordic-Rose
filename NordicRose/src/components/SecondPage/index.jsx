@@ -3,6 +3,7 @@ import FooterNordicRose from "../FooterNordicRose/index.jsx";
 import BlogPage from "../BlogPage/BlogPage.jsx";
 import HeaderNews from "../HeaderNews/index.jsx";
 import ImagesBlock from "../ImagesBlock/index.jsx";
+import ImagesBlockLine from "../ImagesBlockLine/index.jsx";
 import AuthorInfo from "../AuthorInfo/index.jsx";
 import SocialMedia from "../SocialMedia/index.jsx";
 import TextSection from "../TextSection/index.jsx";
@@ -18,6 +19,7 @@ function SecondPage() {
       <Nav></Nav>
       <HeaderNews />
       <ImagesBlock />
+      <ImagesBlockLine />
       <AuthorInfo />
       <SocialMedia />
       <TextSection />

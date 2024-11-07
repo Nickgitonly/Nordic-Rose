@@ -52,7 +52,6 @@
     display: block;
     font-family: "NewYorkSmall";
     font-weight: 500;
-    font-size: medium;
   }
   .dropdown-content a:hover {
     background-color: #f1f1f1;
@@ -64,7 +63,7 @@
   
   @media screen and (min-width: 1024px) {
     .nav-panel img {
-      padding-top: 5px;
+      width: 80%;
     }
     .dropdown-content {
       display: flex;
@@ -79,13 +78,11 @@
       text-align: center;
       border-bottom: 3px solid gray;
       font-size: 19px;
+      height: 10vh;
     }
     
     .dropdown-content a:hover {
       border-bottom: 3px solid black;
-    }
-    .dropdown-content a {
-      height: 10vh;
     }
     .dropdown-image {
       display: none;

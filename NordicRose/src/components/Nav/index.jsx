@@ -5,7 +5,7 @@ function Nav() {
         <nav className="nav-panel">
           <div className="title-nav">
             <a href="#">
-              <img src="/images/NORDICROSE.png" alt="NORDIC" />
+              <img src="/images/NORDIC ROSE.svg" alt="NORDIC" />
             </a>
           </div>
           <div>

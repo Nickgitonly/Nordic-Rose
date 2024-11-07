@@ -70,7 +70,7 @@
       width: 100%;
       height: auto;
       padding-bottom: 2rem;
-      padding-right: 16%;
+      padding-right: 18%;
   }
 
   .main-header-news img {
@@ -84,11 +84,10 @@
       align-items: center;
       flex-direction: column;
       text-align: center;
-      padding: 2rem 32%;
+      padding: 0rem 32%;
   }
 
   .main-header-text h2 {
-      margin-bottom: 1rem;
       font-family: "NewYorkExtraLarge";
       font-size: 2.5rem;
   }

@@ -23,5 +23,9 @@ function Header() {
     </div>
   );
 }
+<<<<<<< HEAD
   
 export default Header;  
+=======
+export default Header;
+>>>>>>> b9b5390e445390ba5919361774cf28639007ca8d

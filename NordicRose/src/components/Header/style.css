@@ -43,6 +43,7 @@
   }
   .main-header-text p {
     font-family: sans-serif;
+<<<<<<< HEAD
   }
   
   .header-separator {
@@ -87,3 +88,49 @@
       height: auto;
     }
   }
+=======
+  }
+  
+  .header-separator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .header-separator img {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .wrapper-header {
+      height: 116vh;
+    }
+    .main-header-news {
+      height: 72%;
+    }
+    .main-header-news img {
+      width: 35rem;
+      height: auto;
+      padding-bottom: 20%;
+    }
+    .main-header-text {
+      padding-left: 20%;
+      padding-right: 20%;
+    }
+    .main-header-text h2 {
+      font-family: "NewYorkExtraLarge";
+      padding-bottom: 20px;
+      font-size: 40px;
+    }
+    .main-header-text p {
+      font-size: 30px;
+      padding-bottom: 10%;
+    }
+    .header-separator img {
+      padding-top: 4%;
+      width: 50%;
+      height: auto;
+    }
+  }
+>>>>>>> b9b5390e445390ba5919361774cf28639007ca8d

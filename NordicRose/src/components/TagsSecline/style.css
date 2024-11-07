@@ -1,0 +1,15 @@
+.line6 img {
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+  }
+  @media (min-width: 1024px) {
+
+   .line6 img {
+     width: 50%;
+     display: flex;
+     margin-top: -2vw;
+     justify-content: center;
+     margin-left: 25%;
+   }}

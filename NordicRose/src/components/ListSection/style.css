@@ -1,31 +1,57 @@
-.text-header{
-    margin : 5vw auto 2vw auto;
+@font-face {
+    font-family: "New Medium";
+    src: url("../start-page/font/NewYorkLarge-Medium.woff2") format("woff2");
+  }
+  .text-header {
+    margin: 5vw auto 1vw auto;
     width: 80%;
     font-family: 'New Medium';
     font-weight: 100;
+    list-style-type: none; 
+    font-size: 4.8vw;
+    margin-left: 5.5vw;
+    margin-top: 7vw;
+  }
+  .text-list, .text-list2 {
+    font-size: 4.8vw;
+    width: 80%;
+    margin-left: 8.1vw;
+    font-family: 'New Medium';
     list-style-type: none;
-}
-.text-section {
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    font-family: 'New Medium';
-    font-weight: 100;
-    h2 {
-        margin: 2.5vw 0 1.5vw;
-       }
-}
-
-@media  (min-width: 1024px) {
-    .text-section {
-        font-size: 1.4vw;
-        width: 50%;
-        margin-left: 25%;
-      
-    }
-    .text-header{
+    line-height: 9vw;
+    padding-left: 3vw;
+  }
+  .text-list::marker, .text-list2::marker {
+    font-size: 0.6em; 
+    content: "◆";
+    color: black;
+  }
+  .text-list2 {
+    line-height: 7vw;
+    padding-left: 3vw;
+  }
+  @media (min-width: 1024px) {
+    .text-header {
       font-size: 1.4vw;
-      margin-left: 25%;
-      list-style-type: none;
+      padding-left: 19.5%;
+      margin-top: 3vw;
     }
-}
+    .text-list {
+      font-size: 1.4vw;
+      width: 50%;
+      margin-left: 25.6vw;
+      line-height: 3.6vw;
+      padding-left: 1vw;
+    }
+    .text-list2 {
+      font-size: 1.4vw;
+      width: 40%;
+      margin-left: 25.6vw;
+      padding-left: 1vw;
+      line-height: 2vw;
+    }
+    .text-list::marker, .text-list2::marker {
+      font-size: 1vw;
+    }
+  }
+  

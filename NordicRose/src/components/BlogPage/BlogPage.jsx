@@ -3,7 +3,7 @@ import EmailForm from './EmailForm';
 const articles = [
   {
     image: "/images/granny.jpg",
-    title: "Granny gives everyone the finger, and other tips from OFFF Barcelon"
+    title: "Granny gives everyone the finger, and other tips from OFFF Barcelona"
   },
   {
     image: "/images/hello-world.png",

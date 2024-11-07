@@ -1,5 +1,6 @@
 import "./style.css";
 import { Link } from "react-router-dom";
+
 function Header() {
   return (
     <div className="wrapper-header">
@@ -16,9 +17,6 @@ function Header() {
         <p>
           Why Ghost (& Figma) instead of Medium, WordPress or other options?
         </p>
-      </div>
-      <div className="header-separator">
-        <img src="images/Line 3.png" alt="line" />
       </div>
     </div>
   );

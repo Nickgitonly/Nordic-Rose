@@ -4,10 +4,9 @@
   padding: 0.1vw;
   background-color: #f7f7f7;
   border-radius: 5px;
-  width: 90vw;
+  width: 88vw;
   margin-left: 6vw;
 }
-
 .social-icons .btn {
   background-color: rgb(255, 255, 255);
   color: #fff;
@@ -18,14 +17,12 @@
   height: 10vw;
   border-radius: 5px;
 }
-
 .social-icons .btn:hover {
   background-color: #e7e7e7;
 }
-
 @media (min-width: 1024px) {
   .social-icons {
-    width: 50vw;
+    width: 49vw;
     margin-left: 6vw;
     margin-left: 25vw;
   }

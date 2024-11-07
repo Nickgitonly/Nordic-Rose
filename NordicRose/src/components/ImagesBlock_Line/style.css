@@ -1,7 +1,5 @@
 .line img {
     width: 90%;
-    display: flex;
-    justify-content: center;
     margin-left: 4%;
     margin-top: 4vw;
 }
@@ -9,6 +7,6 @@
     .line img {
         width: 50%;
         margin-left: 25%;
-        margin-top: 2vw;
+        margin-top: 2.2vw;
   }
   }

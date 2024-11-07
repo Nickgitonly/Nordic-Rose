@@ -1,6 +1,6 @@
 import './style.css';
 
-function SocailMedia() {
+function SocialMedia() {
     return (
         <div className="social-icons">
                 <button className="btn"><img src="images/facebook.png" alt="" /></button>
@@ -10,4 +10,4 @@ function SocailMedia() {
     );
 }
 
-export default SocailMedia;
+export default SocialMedia;

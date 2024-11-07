@@ -11,6 +11,7 @@ import TextAboutSite from "../TextAboutSite/index.jsx";
 import ListSection from "../ListSection/index.jsx";
 import ShareSection from "../ShareSection/index.jsx";
 import TagsSection from "../TagsSection/index.jsx";
+import TagsSecLine from "../TagsSecLine/index.jsx";
 import ProfileSection from "../ProfileInfo/index.jsx";
 
 function SecondPage() {
@@ -28,6 +29,7 @@ function SecondPage() {
       <ShareSection />
       <SocialMedia />
       <TagsSection />
+      <TagsSecLine />
       <ProfileSection />
       <BlogPage />
       <FooterNordicRose></FooterNordicRose>

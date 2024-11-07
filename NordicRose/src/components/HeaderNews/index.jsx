@@ -1,5 +1,3 @@
-import './style.css';
-
 function HeaderNews() {
     return (
         <div>
@@ -11,7 +9,7 @@ function HeaderNews() {
             <p className="grost">
                 Why Ghost (& Figma) instead of Medium, WordPress or other options?
             </p>
-        </div> 
+        </div>
     );
 }
 

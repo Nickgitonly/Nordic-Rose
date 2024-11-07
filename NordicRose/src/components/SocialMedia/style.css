@@ -20,9 +20,9 @@
 .social-icons .btn:hover {
   background-color: #e7e7e7;
 }
-.btn-txt{
+/* .btn-txt{
   display: none;
-}
+} */
 @media (min-width: 1024px) {
   .social-icons {
     width: 49vw;

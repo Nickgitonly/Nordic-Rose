@@ -1,37 +1,32 @@
 @import url("https://fonts.cdnfonts.com/css/sf-mono");
-
-* {
-  margin: 0px;
-  padding: 0px;
-}
-
 @font-face {
   font-family: "NewYorkExtraLarge";
   src: url("../start-page/font/NewYorkExtraLarge-Semibold.woff2") format("woff2");
 }
 
 .intro {
-    font-size: 6vw;
+    font-size: 11vw;
     text-align: center;
     display: flex;
     justify-content: center;
     font-family: "NewYorkExtraLarge";
     font-weight: 700;
-    line-height: 8vw;
-    width: 50%;
-    margin-left: 25%;
-    padding-top: 3vw;
+    line-height: 11.5vw;
+    width: 93%;
+    margin-left: 3%;
+    padding-top: 15vw;
   }
   .grost {
-    font-size: 3.4vw;
+    font-size: 4vw;
     text-align: center;
+    line-height: 6.8vw;
     display: flex;
     justify-content: center;
     font-family: "SF Mono", sans-serif;
     font-weight: 300;
     margin-top: 5vw;
-    margin-left: 15%;
-    width: 70%;
+    margin-left: 7%;
+    width: 85%;
     margin-bottom: 6vw;
   }
 @media (min-width:1024px){
@@ -40,16 +35,14 @@
     line-height: 3vw;
     width: 40%;
     margin-left: 30%;
-
-
+    padding-top:2.7vw;
   }
   .grost{
     width: 33%;
     font-size: 1.1vw;
     margin-left: 34%;
     margin-top: 2vw;
-    margin-bottom: 3.2vw;
-    
+    margin-bottom: 3vw;
+    line-height: 1.8vw;
   }
 }
-

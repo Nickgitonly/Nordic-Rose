@@ -1,13 +1,12 @@
 .social-icons {
   display: flex;
   justify-content: center;
-  padding: 0.5vw;
+  padding: 0.1vw;
   background-color: #f7f7f7;
   border-radius: 5px;
-  width: 90vw;
+  width: 88vw;
   margin-left: 6vw;
 }
-
 .social-icons .btn {
   background-color: rgb(255, 255, 255);
   color: #fff;
@@ -18,11 +17,12 @@
   height: 10vw;
   border-radius: 5px;
 }
-
 .social-icons .btn:hover {
   background-color: #e7e7e7;
 }
-
+/* .btn-txt{
+  display: none;
+} */
 @media (min-width: 1024px) {
   .social-icons {
     width: 49vw;
@@ -38,5 +38,9 @@
   .social-icons .btn:hover {
     background-color: #e7e7e7;
   }
+  /* .btn-txt{
+    color: black;
+    font-family: "SF Pro", sans-serif;
+    display: inline;
+  } */
 }
-

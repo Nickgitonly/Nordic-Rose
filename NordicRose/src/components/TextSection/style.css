@@ -13,6 +13,7 @@
 }
 .text-section h2 { 
  padding-top: 8vw;
+ font-family: "SF Pro", sans-serif;
   font-weight: 700;
   font-size: 6vw;
 }
@@ -53,7 +54,7 @@
       width: 80%;
     }
     .text-section p{
-      margin-top: 2vw;
+      margin-top: 1vw;
     }
     .text-section h2 { 
      padding-top: 2vw;

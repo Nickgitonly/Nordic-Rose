@@ -3,23 +3,23 @@
     src: url("../start-page/font/NewYorkLarge-Medium.woff2") format("woff2");
   }
   .text-header {
-    margin: 5vw auto 1vw auto;
+    margin: 5em auto 1em auto;
     width: 80%;
     font-family: 'New Medium';
     font-weight: 100;
     list-style-type: none; 
-    font-size: 4.8vw;
-    margin-left: 5.5vw;
-    margin-top: 7vw;
+    font-size: 1.2em;
+    margin-left: 0.9em;
+    margin-top: 2.3em;
   }
   .text-list, .text-list2 {
-    font-size: 4.8vw;
-    width: 80%;
-    margin-left: 8.1vw;
+    font-size: 1.1em;
+    width: 19em;
+    margin-left: 1.3em;
     font-family: 'New Medium';
     list-style-type: none;
-    line-height: 9vw;
-    padding-left: 3vw;
+    line-height: 1em;
+    padding-left: 1em;
   }
   .text-list::marker, .text-list2::marker {
     font-size: 0.6em; 
@@ -27,31 +27,30 @@
     color: black;
   }
   .text-list2 {
-    line-height: 7vw;
-    padding-left: 3vw;
+    line-height: 2em;
   }
   @media (min-width: 1024px) {
     .text-header {
-      font-size: 1.4vw;
+      font-size: 1.4em;
       padding-left: 19.5%;
-      margin-top: 3vw;
+      margin-top: 3em;
     }
     .text-list {
-      font-size: 1.4vw;
+      font-size: 1.4em;
       width: 50%;
-      margin-left: 25.6vw;
-      line-height: 3.6vw;
-      padding-left: 1vw;
+      margin-left: 25.6em;
+      line-height: 3.6em;
+      padding-left: 1em;
     }
     .text-list2 {
-      font-size: 1.4vw;
+      font-size: 1.4em;
       width: 40%;
-      margin-left: 25.6vw;
-      padding-left: 1vw;
-      line-height: 2vw;
+      margin-left: 25.6em;
+      padding-left: 1em;
+      line-height: 2em;
     }
     .text-list::marker, .text-list2::marker {
-      font-size: 1vw;
+      font-size: 1em;
     }
   }
   

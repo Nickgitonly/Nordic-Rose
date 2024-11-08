@@ -9,7 +9,7 @@
    .line6 img {
      width: 50%;
      display: flex;
-     margin-top: -2vw;
+     margin-top: -2em;
      justify-content: center;
      margin-left: 25%;
    }}

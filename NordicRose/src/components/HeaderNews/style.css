@@ -5,44 +5,44 @@
 }
 
 .intro {
-    font-size: 11vw;
+    font-size: 2.6em;
     text-align: center;
     display: flex;
     justify-content: center;
     font-family: "NewYorkExtraLarge";
     font-weight: 700;
-    line-height: 11.5vw;
-    width: 93%;
-    margin-left: 3%;
-    padding-top: 15vw;
+    line-height: 1.3em;
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 1.2em;
   }
   .grost {
-    font-size: 4vw;
+    font-size: 1em;
     text-align: center;
-    line-height: 6.8vw;
+    line-height: 1.7em;
     display: flex;
     justify-content: center;
     font-family: "SF Mono", sans-serif;
     font-weight: 300;
-    margin-top: 5vw;
+    margin-top: 1.2em;
     margin-left: 7%;
     width: 85%;
-    margin-bottom: 6vw;
+    margin-bottom: 1.9em;
   }
 @media (min-width:1024px){
   .intro{
-    font-size: 3vw;
-    line-height: 3vw;
-    width: 40%;
-    margin-left: 30%;
-    padding-top:2.7vw;
+    font-size: 3.6em;
+    line-height: 1em;
+    width: 45%;
+    margin-left: 26%;
+    padding-top:2.7em;
   }
   .grost{
     width: 33%;
-    font-size: 1.1vw;
-    margin-left: 34%;
-    margin-top: 2vw;
-    margin-bottom: 3vw;
-    line-height: 1.8vw;
+    font-size: 1.2em;
+    margin-left: 32%;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    line-height: 1.8em;
   }
 }

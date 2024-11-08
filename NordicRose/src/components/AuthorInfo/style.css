@@ -4,61 +4,60 @@
   justify-content: center;
   align-items: center;
   width: 70%;
-  margin-left: -17px;
-  padding-top: 1vw;
+  margin-left: -1.1em;
   margin-bottom: 10px;
 }
 .author-details {
   display: flex;
   align-items: center;
-  margin: 2vw 0;
+  margin: 1.6em 0;
   justify-content: space-between;
 }
 .author-details .mika {
   font-family: "SF Pro", sans-serif;
   font-weight: 600;
-  font-size: 3.3vw;
+  font-size: 0.9em;
   text-align: left;
-  margin-left: -2vw;
+  margin-left: -0.3em;
   transform: scaleY(0.90);
-  letter-spacing: 0.05vw;
+  letter-spacing: 0.05em;
 }
 .author-details .art {
   font-family: "SF Pro", sans-serif;
   font-weight: 400;
-  font-size: 3.2vw;
+  font-size: 0.8em;
   text-align: left;
-  margin-left: -2vw;
+  margin-left: -0.3em;
 }
 .author-info .author-details img {
   border-radius: 50%;
-  margin-left: 1px;
-  width: 21%;
+  margin-left: 1em;
+  width:24%;
 }
 @media (min-width: 1024px) {
 .author-info {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 0vw;
-  width: 68.2vw;
-  margin-left: -1.4vw;
+  padding-top: 0em;
+  width: 68.2em;
+  margin-left: 0.5em;
 }
     .author-info img {
-      width: 7.3vw;
+      width: 7.3em;
       border-radius: 50%;
     }
     .author-info .author-details .mika {
-      font-size: 1vw;
-      margin-left: 0vw;
+      font-size: 1em;
+      margin-left: 1em;
       transform: scaleY(0.97);
-      letter-spacing: 0.05vw;
+      letter-spacing: 0.05em;
     }
     .author-info .author-details .art {
-      margin-left: 0vw;
-      font-size: 1vw;
+      margin-left: 1em;
+      font-size: 1em;
       font-family: "SF Pro", sans-serif;
       transform: scaleY(0.98);
-      margin-top: 0.5vw;
+      
     }
 }

@@ -1,24 +1,24 @@
 .text-share {
-  margin-top: 10vw;
-  margin-bottom: 2.3vw;
+  margin-top: 0.8em;
+  margin-bottom: 0.1em;
   text-align: center;
   font-family: "SF Mono", sans-serif;
   font-weight: 400;
-  margin-right: 73%;
+  margin-right: 82%;
 }
 
 @media (min-width: 1024px) {
   .text-share {
-    font-size: 1.2vw;
+    font-size: 1.2em;
     margin-left: 25%;
-    margin-top: 2vw;
-    margin-bottom: 1vw;
+    margin-top: 2em;
+    margin-bottom: 1em;
   }
 }
 
 @media (max-width: 768px) {
   .text-share {
-    font-size: 4vw;
+    font-size: 4em;
     text-align: center;
   }
 }

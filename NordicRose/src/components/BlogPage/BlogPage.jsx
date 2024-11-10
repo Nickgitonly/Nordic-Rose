@@ -27,41 +27,44 @@ const articles = [
   }
 ];
 
+function Eye({ pupilLeft, mLeft }) {
+  return (
+    <div className={`w-16 h-[35px] rounded-[50%] border-[1.4px] border-black bg-white relative overflow-hidden ${mLeft}`}> { /* -ml-1 */}
+      <div className={`w-[0.6rem] h-3.5 bg-black rounded-[50%] absolute bottom-[2px] ${pupilLeft}`}></div>
+    </div>
+  );
+}
 const BlogPage = () => {
   return (
     <div className="max-w-full overflow-x-hidden font-sans">
-      <header className="text-center py-5 relative">
-        <div className="relative w-full h-[1.5px] bg-black my-5">
+      <header className="text-center relative mb-3">
+        <div className="relative w-full h-[1.5px] bg-black mt-6 mb-12">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-11 h-6 flex justify-start items-center">
-            <div className="w-6 h-[30px] rounded-full border-2 border-black bg-white relative overflow-hidden">
-              <div className="w-2 h-3 bg-black rounded-full absolute bottom-[3px] left-[40%]"></div>
-            </div>
-            <div className="w-6 h-[30px] rounded-full border-2 border-black bg-white relative overflow-hidden -ml-1">
-              <div className="w-2 h-3 bg-black rounded-full absolute bottom-[3px] left-[35%]"></div>
-            </div>
+            <Eye pupilLeft="left-[40%]" />
+            <Eye mLeft="-ml-1" pupilLeft="left-[40%]" />
           </div>
         </div>
 
-        <h1 className="text-2xl font-bold my-8 font-serif">What to read next</h1>
+        <h1 className="text-3xl font-bold font-serif">What to read next</h1>
       </header>
 
-      <main className="w-[90%] max-w-[1180px] mx-auto px-5 box-border">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-8 p-4 max-w-[1920px] mx-auto">
+      <main className="max-w-[1180px] mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-8 p-4 max-w-[1920px] mx-auto justify-items-center">
           {articles.map((article, index) => (
-            <div key={index} className="flex flex-col w-full h-full px-[5px] box-border">
+            <div key={index} className="flex flex-col w-full h-full px-[5px] box-border items-center">
               <img
                 src={article.image}
                 alt={article.title}
                 className="w-full h-auto aspect-video object-cover"
               />
-              <h2 className="font-medium text-[clamp(13px,1.5vw,16px)] mt-[10px] text-center tracking-wider leading-relaxed min-h-[60px] flex items-center justify-center">
+              <h2 className="font-bold text-base leading-tight font-['San_Francisco'] mt-[10px] text-center min-h-[60px] flex items-center justify-center">
                 {article.title}
               </h2>
             </div>
           ))}
         </div>
 
-        <EmailForm/>
+        <EmailForm />
       </main>
     </div>
   );

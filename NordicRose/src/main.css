@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+      font-family: 'SF Pro';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url("app/assets/fonts/sf-pro-text-regular-webfont.woff2") format('woff2');
+    }
+
+    @font-face {
+      font-family: "San Francisco";
+      font-weight: 400;
+      src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+    }
+}
+
+
+
+  

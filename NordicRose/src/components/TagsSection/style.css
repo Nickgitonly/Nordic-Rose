@@ -4,7 +4,7 @@
     padding-bottom: 0.4em;
     padding-top: 0.4em;
     font-size: 4em;
-    margin-left: 0.2em;
+    margin-right:2.4em;
    
     
     
@@ -12,7 +12,7 @@
   @media (min-width: 1024px) {
     .tags {
         font-size: 1.1em;
-        margin-left: 19.3%;
+        margin-right: 21em;
         padding-top: 2em;
         }
   }

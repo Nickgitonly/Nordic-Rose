@@ -2,7 +2,7 @@
     font-family: "New Medium";
     src: url("../start-page/font/NewYorkLarge-Medium.woff2") format("woff2");
   }
-  .text-section {
+  .text2{
       width: 29em;
       font-weight: 400;
       margin-top: 2em;
@@ -18,15 +18,23 @@
       font-family: "SF Pro", sans-serif;
       font-weight: 700;
       font-size: 1.4em;
+      margin-left: 1em;
       
     }
   @media  (min-width: 1024px){
-      .text-section {
-        font-size: 1.07em;
-        line-height: 30.4px;
+      .text2 {
+        margin-top: 2em;
+        font-size: 1.2em;
+        line-height: 40px;
         text-align: left;
-        width: 34em;
-        margin-left: 25.3em;
+        width: 32em;
+        margin-left: 30.5em;
         }
+        .text-section h2 { 
+          padding-top: 0.3em;
+          font-size: 1.8em;
+          margin-left: 10.8em;
+          width: 30em;
+         }
       }
   

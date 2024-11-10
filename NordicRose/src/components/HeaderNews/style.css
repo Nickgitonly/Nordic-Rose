@@ -31,16 +31,16 @@
   }
 @media (min-width:1024px){
   .intro{
-    font-size: 3.6em;
+    font-size: 4em;
     line-height: 1em;
-    width: 45%;
-    margin-left: 26%;
-    padding-top:2.7em;
+    width: 50%;
+    margin-left: 7em;
+    padding-top:1em;
   }
   .grost{
-    width: 33%;
-    font-size: 1.2em;
-    margin-left: 32%;
+    width: 37%;
+    font-size: 1.3em;
+    margin-left:27em;
     margin-top: 2em;
     margin-bottom: 3em;
     line-height: 1.8em;

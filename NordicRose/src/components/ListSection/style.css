@@ -15,14 +15,14 @@
   .text-list, .text-list2 {
     font-size: 1.1em;
     width: 19em;
-    margin-left: 1.3em;
+    margin-left: 1.6em;
     font-family: 'New Medium';
     list-style-type: none;
     line-height: 1em;
     padding-left: 1em;
   }
   .text-list::marker, .text-list2::marker {
-    font-size: 0.6em; 
+    font-size: 0.8em; 
     content: "◆";
     color: black;
   }
@@ -31,22 +31,22 @@
   }
   @media (min-width: 1024px) {
     .text-header {
-      font-size: 1.4em;
-      padding-left: 19.5%;
+      font-size: 1.2em;
+      padding-left: 29.7em;
       margin-top: 3em;
     }
     .text-list {
-      font-size: 1.4em;
+      font-size: 1.2em;
       width: 50%;
-      margin-left: 25.6em;
+      margin-left: 31.3em;
       line-height: 3.6em;
-      padding-left: 1em;
+      padding-left: 0.8em;
     }
     .text-list2 {
-      font-size: 1.4em;
+      font-size: 1.2em;
       width: 40%;
-      margin-left: 25.6em;
-      padding-left: 1em;
+      margin-left: 31.3em;
+      padding-left: 0.8em;
       line-height: 2em;
     }
     .text-list::marker, .text-list2::marker {
